@@ -79,3 +79,16 @@ if (eventManagerLink) {
         eventManagerLink.style.transform = "scale(1)";
     });
 }
+
+var techStackLinks = document.querySelectorAll(".TechStack");
+techStackLinks.forEach(function(techStackLink) {
+    techStackLink.addEventListener("mouseover", function() {
+        techStackLink.style.transition = "transform 0.2s ease-in-out";
+        techStackLink.style.transform = "scale(1.05)";
+    });
+
+    techStackLink.addEventListener("mouseout", function() {
+        techStackLink.style.transition = "transform 0.2s ease-in-out";
+        techStackLink.style.transform = "scale(1)";
+    });
+});

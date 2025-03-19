@@ -57,8 +57,8 @@ p{
     height: 600px; 
     justify-content: center; 
     display: grid;
-    grid-template-rows: 20% 25% 30% 20%;
-    padding: 20px;
+    grid-template-rows: 20% 20% 30% 25%;
+    padding: 15px;
 }
 .DescriptionDiv{
     grid-row: 3;
@@ -126,14 +126,18 @@ p{
   }
 
 .bookproject{
-    background-image: url(Images/BookImage.jpg);
+    background-image: url(Images/bookapicover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .EventManager{
-    background-image: url(Images/EventImage.jpg);
+    background-image: url(Images/eventbackround.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+svg:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
 }
