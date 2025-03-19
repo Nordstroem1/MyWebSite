@@ -1,0 +1,139 @@
+#FirstSection{
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px #888; 
+}
+.PersonalDiv{
+    border-radius: 10px;
+    padding: 30px;
+}
+#SecondSection{
+    background: linear-gradient(to bottom, #4a93e1, white); 
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+#SpareTimeDiv{
+    border-radius: 10px;
+    padding: 30px;
+}
+#NameHeader{
+    animation: slideInFromTop 1.5s forwards;
+}
+#portfolioSection{
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px #888; 
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.Texth1{
+    font-size: 25px;
+    font-family: 'Inter Black', sans-serif;
+    color: #000000;
+}
+p{
+    font-size: 18px;
+    font-family: 'Inter Black', sans-serif;
+    color: #000000;
+}
+
+.ProjectDiv {
+    min-width: 350px;
+    border-radius: 10px;
+    width: 40%; 
+    box-shadow: 3px 3px 3px 3px #888; 
+    height: 600px; 
+    justify-content: center; 
+    display: grid;
+    grid-template-rows: 20% 25% 30% 20%;
+    padding: 20px;
+}
+.DescriptionDiv{
+    grid-row: 3;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+.titleH1{
+    grid-row: 1;
+    padding: 10px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Inter Black', sans-serif;
+    font-size: 30px;
+}
+.textdiv{
+    color: white    ;
+}
+.TagDiv{
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 10px;
+}
+.Tag {
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    border-radius: 10px;
+}
+.Tag1{
+    background-color: #7b0f9b;
+}
+.Tag2{
+    background-color: #bb0d78;
+}
+.Tag3{
+    background-color: #0cc4ed;
+}
+.Tag4{
+  background-color: #360fd1;
+}
+.Tag5{
+  background-color: #f15f74;
+}
+.Tag6{
+  background-color: #12a74b;
+}
+.Tag7{
+  background-color: #f15f74;
+}
+.Tag8{
+  background-color: #c6a10d;
+}
+.Tag9{
+    background-color: #29c60d;
+  }
+
+.bookproject{
+    background-image: url(Images/BookImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.EventManager{
+    background-image: url(Images/EventImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
