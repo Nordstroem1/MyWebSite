@@ -21,11 +21,14 @@
 #NameHeader{
     animation: slideInFromTop 1.5s forwards;
 }
+
 #portfolioSection{
-    padding: 50px;
+    width: 60%;
+    padding: 15px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 3px 3px 3px 3px #888; 
+    align-self: center;
 }
 
 @keyframes slideInFromTop {
@@ -140,4 +143,158 @@ p{
 svg:hover {
     transform: scale(1.2);
     transition: transform 0.2s ease-in-out;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 550px) {
+    .ProjectDiv {
+        min-width: 300px;
+        padding: 15px;
+        height: auto; 
+        margin: 0px; 
+        grid-template-rows: 15% 10% 20% 40%;
+        width: 80%;
+    }
+    .TagDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #FirstSection{
+        min-width: 300px;
+        padding: 10px;
+        width: 60%;
+        margin: 0px;
+    }
+    #portfolioSection{
+        min-width: 300px;
+        padding: 10px;
+        width: 100%;
+        margin: 0px, 0px;
+    }
+    .BiggerProjectsDiv{
+        min-width: 300px;
+        height: auto; 
+        margin: 0px; 
+        padding: 15px;
+    }
+    .DynamicDivspace{
+        padding: 0px;
+        width: 100%;
+        margin: 0px;
+    }
+    #SecondSection{
+        min-width: 300px;
+        padding: 10px;
+        width: 100%;
+        margin: 0px;
+    }
+    #ThirdSection{
+        min-width: 300px;
+        padding: 10px;
+        width: 100%;
+        margin: 0px;
+    }	
+    .stackDiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        gap: 10px;    
+    }
+    .titleH1{
+        font-size: 20px;
+    }
+    .Texth1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .TagDiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        height: auto; 
+    }
+}
+
+@media (max-width: 750px) {
+    .ProjectDiv {
+        min-width: 400px;
+        padding: 10px;
+        height: auto; 
+        margin: 0px; 
+        grid-template-rows: 15% 10% 20% 40%;
+        width: 90%;
+    }
+    .TagDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #FirstSection{
+        min-width: 500px;
+        padding: 10px;
+        width: 100%;
+        margin: 0px;
+    }
+    #PortfolioContent{
+        width: 100%;
+    }
+    #portfolioSection{
+        min-width: 500px;
+        padding: 10px;
+        width: 100%;
+        margin: 0px;
+    }
+    .BiggerProjectsDiv{
+        min-width: 300px;
+        height: auto; 
+        margin: 0px; 
+        padding: 15px;
+    }
+    .DynamicDivspace{
+        padding: 0px;
+        width: 100%;
+        margin: 0px;
+    }
+    #SecondSection{
+        min-width: 500px;
+        padding: 10px;
+        width: 100%;
+        margin: 0px;
+    }
+    #ThirdSection{
+        min-width: 300px;
+        padding: 10px;
+        width: 100%;
+        margin: 0px;
+    }	
+    .stackDiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        gap: 10px;    
+    }
+    .titleH1{
+        font-size: 25px;
+    }
+    .Texth1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .TagDiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        height: auto; 
+    }
+    .buttonsDiv{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
 }
