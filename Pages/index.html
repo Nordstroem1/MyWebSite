@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,314 +9,694 @@
     <link href="Styling.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
+
 <body>
     <div class="flex flex-col min-h-screen">
         <section class="bg-white dark:bg-gray-900 flex-grow">
-            <div class="container px-6 py-10 mx-auto">
-                <h1 id="" class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
-                    <h1 id="NameHeader" class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
-                    Hello there, My name is Johan Nordström
-                </h1>
-    
-                <div class="buttonsDiv flex py-4 mt-4 overflow-x-auto overflow-y-hidden md:justify-center dark:border-gray-700">
-                    <button id="AboutMeBtn"
-                        class="h-12 px-8 py-2 -mb-px text-sm text-center text-blue-600 bg-transparent border-b-2 border-blue-500 sm:text-base dark:border-blue-400 dark:text-blue-300 whitespace-nowrap focus:outline-none">
-                        About Me
-                    </button>
-    
-                    <button id="PortfolioBtn"
-                        class="h-12 px-8 py-2 -mb-px text-sm text-center text-gray-700 bg-transparent border-b-2 border-gray-200 sm:text-base dark:text-white whitespace-nowrap cursor-base focus:outline-none dark:border-gray-700 dark:hover:border-gray-400 hover:border-gray-400">
-                        Portfolio
-                    </button>
-                </div>
-    
-                <div class="DynamicDivspace-y-16">
-                <div id="HomeContent">
-                    <section id="FirstSection" class=" d-flex flex-column align-items-center" style="width: 50%; margin: 0 auto 80px auto;">
-                        <h1 class="Texth1">About me</h1>
-                        <div class="w-100" style="height: 300px;">
-                            <iframe src="https://lottie.host/embed/18f50dd6-d564-4b28-aa17-82d14a32d1e2/OTvTXdvU56.lottie" style="width: 100%; height: 100%;"></iframe>
-                        </div>
-                        <div class="PersonalDiv mt-4">
-                            <p class="mt-4">
-                                I am a dedicated .NET developer who is 25 years old and eager to start my career, with a passion for creating scalable projects that follows clean architecture principles. My enthusiasm for development stems from the limitless opportunities for both personal and technical growth.
-                            </p>
-                            <p class="mt-4">
-                                My objective is to continually evolve as a developer and individual. I am social as a person and always like to evolve on a personal basis even if it requires something challenging. I've heard from others that I'm good at taking action, which I think comes from my time in the armed forces. It's really important for me to work in a team that values collaboration and knowledge sharing along with passion for what they are developing.
-                            </p>
-                            </div>
-                    </section>  
-                    
-                    <section id="SecondSection" class="d-flex flex-column align-items-center" style="width: 60%; margin: 0 auto 80px auto;">
-                        <div class="w-100 center justify-content-center" style="height: 50px;">
-                            <h1 class="Texth1" >What do I like to do in my free time?</h1>
-                        </div>
-                        <div class="w-100 center justify-content-center" style="height: 200px;">
-                            <iframe src="https://lottie.host/embed/1949f2e1-1ea9-43f2-8ec4-245b9501d24c/aSdHn7oNjh.lottie" style="width: 100%; height: 100%;"></iframe>
-                        </div>
-                        <div id="SpareTimeDiv" class="freeTimeDiv mt-4">
-                            <p class="mt-4">
-                                In my free time, I enjoy a variety of activities. I like climbing with my friends, especially bouldering. I train a lot, including running and lifting weights. Cooking is another passion of mine, I could spend hours on a recipe because I find it fun and rewarding. I also enjoy extreme sports, influenced by my background in motocross competitions. 
-                            </p>
-                               <p class="mt-4">
-                                   During the summers, I like to embark on extreme adventures with my best friend. These adventures include hiking in the northern mountains, fishing, and sleeping next to a campfire. We've also paddled a double kayak for 140 km over three days, which was a challenging and memorable experience.
-                                </p> 
+            <div class="bigDiv container">
+                <h1 id=""
+                    class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
+                    <h1 id="NameHeader"
+                        class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
+                        Hello there, My name is Johan Nordström
+                    </h1>
+
+                    <div
+                        class="buttonsDiv flex py-4 mt-4 overflow-x-auto overflow-y-hidden md:justify-center dark:border-gray-700">
+                        <button id="AboutMeBtn"
+                            class="h-12 px-8 py-2 -mb-px text-sm text-center text-blue-600 bg-transparent border-b-2 border-blue-500 sm:text-base dark:border-blue-400 dark:text-blue-300 whitespace-nowrap focus:outline-none">
+                            About Me
+                        </button>
+
+                        <button id="PortfolioBtn"
+                            class="h-12 px-8 py-2 -mb-px text-sm text-center text-gray-700 bg-transparent border-b-2 border-gray-200 sm:text-base dark:text-white whitespace-nowrap cursor-base focus:outline-none dark:border-gray-700 dark:hover:border-gray-400 hover:border-gray-400">
+                            Portfolio
+                        </button>
+                    </div>
+
+                    <div class="DynamicDivspace-y-16">
+                        <div id="HomeContent">
+                            <section id="FirstSection" class=" d-flex flex-column align-items-center"
+                                style="width: 50%; margin: 0 auto 80px auto;">
+                                <h1 class="Texth1">About me</h1>
+                                <div class="w-100" style="height: 300px;">
+                                    <iframe
+                                        src="https://lottie.host/embed/18f50dd6-d564-4b28-aa17-82d14a32d1e2/OTvTXdvU56.lottie"
+                                        style="width: 100%; height: 100%;"></iframe>
                                 </div>
-                    </section>
-
-                    <section id="ThirdSection" class=" d-flex flex-column align-items-center" style="width: 60%; margin: 0 auto 80px auto;">
-                        <div class="tech stack mt-4">
-                            <h1 class="Texth1">
-                                My tech stack
-                            </h1>
-                        </div>
-                        <div class="d-flex justify-content-center mt-4">
-                            <div class="techstack mx-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
-                                    <title>MySql</title>
-                                    <path fill="#00796b" d="M0.002,35.041h1.92v-7.085l2.667,6.057c0.329,0.755,0.779,1.022,1.662,1.022 s1.315-0.267,1.644-1.022l2.667-5.902v6.93h1.92v-7.258c0-0.697-0.277-1.035-0.849-1.209c-1.367-0.43-2.285-0.059-2.7,0.872 l-2.735,6.16l-2.649-6.16c-0.398-0.93-1.332-1.302-2.7-0.872C0.277,26.748,0,27.085,0,27.782v7.258H0.002z"></path><path fill="#00796b" d="M13.441,29.281h1.92v4.055c-0.015,0.2,0.064,0.731,0.99,0.745c0.472,0.008,2.821,0,2.85,0v-4.8h1.92 c0.008,0,0,5.968,0,5.993c0.01,1.472-1.828,1.662-2.673,1.687h-5.006v-0.96c0.01,0,4.787,0.001,4.801,0 c1.088-0.115,0.959-0.714,0.959-0.896v-0.064H16.19c-1.67-0.015-2.735-0.751-2.747-1.59C13.441,33.373,13.479,29.317,13.441,29.281 z"></path><path fill="#f57f17" d="M22.081,35.041h4.807c0.63,0,1.242-0.132,1.728-0.36c0.81-0.372,1.144-0.875,1.144-1.536v-1.368 c0-1.476-1.83-1.536-2.88-1.536h-1.92c-0.755,0-0.87-0.456-0.96-0.96v-0.96c0.09-0.384,0.258-0.9,0.923-0.96 c0.773,0,4.836,0,4.836,0v-0.96h-4.566c-0.755,0-3.114,0.09-3.114,1.92v1.187c0,0.84,0.738,1.524,2.34,1.692 c0.18,0.012,0.36,0.024,0.539,0.024c0,0,1.866-0.036,1.92-0.024c1.08,0,0.96,0.84,0.96,0.96v0.96c0,0.132-0.03,0.96-0.971,0.96 c-0.072,0-4.789,0-4.789,0V35.041z"></path><path fill="#f57f17" d="M40.32,33.08c0,1.159,0.655,1.809,2.392,1.939c0.162,0.011,0.325,0.021,0.488,0.021H48v-0.96h-4.435 c-0.991,0-1.325-0.416-1.325-1.011v-6.669h-1.92V33.08z"></path><path fill="#f57f17" d="M30.704,33.121v-4.8c0-1.02,0.5-1.724,1.916-1.92h0.672h3.447h0.525 c1.416,0.196,2.08,0.899,2.08,1.92v4.782c0,0.827-0.215,1.271-0.916,1.559L39.916,36h-2.16l-1.07-0.96h-1.257l-2.136,0.012 c-0.309,0-0.635-0.043-0.993-0.141C31.226,34.618,30.704,34.054,30.704,33.121z M32.624,33.121c0.098,0.467,0.473,0.96,1.14,0.96 h1.864l-1.068-0.96h2.175l0.519,0.482c0,0,0.186-0.152,0.186-0.482c0-0.33-0.016-4.8-0.016-4.8c-0.098-0.434-0.538-0.96-1.188-0.96 h-2.471c-0.749,0-1.14,0.548-1.14,1.058L32.624,33.121L32.624,33.121z"></path><path fill="#00796b" d="M46.199,25.389c-1.031-0.028-1.818,0.068-2.491,0.351c-0.191,0.081-0.496,0.083-0.528,0.323 c0.105,0.11,0.121,0.275,0.205,0.41c0.16,0.26,0.432,0.609,0.674,0.791c0.265,0.2,0.538,0.414,0.821,0.587 c0.504,0.307,1.067,0.483,1.553,0.791c0.286,0.181,0.57,0.411,0.85,0.615c0.138,0.102,0.23,0.259,0.41,0.323 c0-0.01,0-0.019,0-0.029c-0.094-0.12-0.119-0.285-0.205-0.411c-0.127-0.127-0.254-0.254-0.381-0.381 c-0.372-0.494-0.846-0.929-1.348-1.289c-0.401-0.288-1.298-0.677-1.466-1.143c-0.01-0.01-0.019-0.019-0.03-0.03 c0.284-0.032,0.617-0.135,0.879-0.205c0.441-0.118,0.834-0.087,1.289-0.205c0.205-0.059,0.41-0.117,0.615-0.176 c0-0.039,0-0.078,0-0.117c-0.23-0.236-0.395-0.548-0.645-0.762c-0.657-0.559-1.373-1.117-2.11-1.583 c-0.409-0.258-0.915-0.426-1.348-0.645c-0.146-0.074-0.402-0.112-0.498-0.234c-0.228-0.29-0.351-0.659-0.527-0.996 c-0.368-0.708-0.73-1.482-1.055-2.227c-0.223-0.508-0.368-1.01-0.645-1.466c-1.331-2.188-2.764-3.509-4.982-4.807 c-0.472-0.276-1.041-0.385-1.642-0.528c-0.323-0.019-0.645-0.039-0.968-0.059c-0.197-0.083-0.401-0.323-0.587-0.44 c-0.735-0.465-2.621-1.475-3.165-0.147c-0.344,0.838,0.514,1.656,0.821,2.081c0.215,0.298,0.491,0.632,0.645,0.968 c0.101,0.22,0.119,0.441,0.205,0.674c0.213,0.574,0.55,1.228,0.826,1.759c0.139,0.269,0.293,0.551,0.469,0.791 c0.108,0.147,0.293,0.212,0.323,0.44c-0.181,0.253-0.191,0.646-0.293,0.968c-0.458,1.445-0.285,3.24,0.381,4.308 c0.204,0.328,0.686,1.032,1.348,0.762c0.579-0.236,0.45-0.967,0.615-1.612c0.037-0.146,0.014-0.253,0.088-0.351 c0,0.01,0,0.019,0,0.03c0.176,0.351,0.351,0.704,0.528,1.055c0.391,0.629,1.084,1.286,1.67,1.73 c0.304,0.23,0.544,0.628,0.938,0.762c0-0.01,0-0.019,0-0.03c-0.01,0-0.019,0-0.03,0c-0.076-0.119-0.196-0.168-0.293-0.264 c-0.229-0.225-0.485-0.504-0.674-0.762c-0.534-0.725-1.006-1.519-1.436-2.345c-0.205-0.395-0.384-0.829-0.557-1.231 c-0.067-0.155-0.066-0.389-0.205-0.469c-0.19,0.294-0.468,0.532-0.615,0.879c-0.234,0.555-0.265,1.233-0.351,1.934 c-0.052,0.018-0.029,0.006-0.059,0.029c-0.408-0.099-0.552-0.518-0.704-0.879c-0.384-0.912-0.455-2.38-0.117-3.429 c0.087-0.272,0.482-1.127,0.323-1.378c-0.076-0.251-0.328-0.396-0.468-0.587c-0.175-0.236-0.348-0.548-0.469-0.821 c-0.314-0.711-0.612-1.538-0.943-2.257c-0.158-0.344-0.425-0.691-0.645-0.996c-0.243-0.338-0.516-0.587-0.704-0.996 c-0.067-0.145-0.158-0.378-0.059-0.528c0.032-0.101,0.076-0.143,0.176-0.176c0.17-0.132,0.643,0.043,0.821,0.117 c0.47,0.195,0.862,0.381,1.26,0.645c0.191,0.127,0.384,0.372,0.615,0.44c0.088,0,0.176,0,0.264,0 c0.413,0.095,0.875,0.03,1.26,0.147c0.682,0.207,1.292,0.529,1.846,0.879c1.69,1.067,3.071,2.585,4.016,4.397 c0.152,0.292,0.218,0.57,0.351,0.879c0.27,0.624,0.611,1.266,0.879,1.876c0.268,0.609,0.53,1.223,0.909,1.73 c0.2,0.266,0.97,0.409,1.319,0.557c0.245,0.104,0.647,0.211,0.879,0.351c0.444,0.268,0.874,0.587,1.289,0.879 C45.528,24.803,46.167,25.124,46.199,25.389z"></path><path fill="#00796b" d="M33.098,14.223c-0.215-0.004-0.367,0.023-0.528,0.059c0,0.01,0,0.019,0,0.03c0.01,0,0.019,0,0.03,0 c0.103,0.21,0.283,0.347,0.41,0.528c0.098,0.205,0.195,0.41,0.293,0.615c0.01-0.01,0.019-0.019,0.029-0.029 c0.181-0.128,0.265-0.332,0.264-0.645c-0.073-0.077-0.084-0.173-0.147-0.264C33.365,14.394,33.203,14.325,33.098,14.223z"></path>
-                                    </svg>
-                            </div>
-                            <div class="techstack mx-2">
-                              <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 64 64" width="48px" height="48px" baseProfile="basic"><linearGradient id="dFMIpH0DLBLP_Mye2ctJMa" x1="15.25" x2="15.25" y1="31.296" y2="15.385" gradientTransform="matrix(1 0 0 -1 0 64)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#8ab4ff"/><stop offset=".699" stop-color="#e492ff"/></linearGradient><path fill="url(#dFMIpH0DLBLP_Mye2ctJMa)" d="M19.09,39.37c0,0.01,0.01,0.01,0.01,0.02l-7.7,4.5L19.09,39.37z"/><linearGradient id="dFMIpH0DLBLP_Mye2ctJMb" x1="15.25" x2="15.25" y1="33.329" y2="20.11" gradientTransform="matrix(1 0 0 -1 0 64)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#8ab4ff"/><stop offset=".699" stop-color="#e492ff"/></linearGradient><path fill="url(#dFMIpH0DLBLP_Mye2ctJMb)" d="M19.09,39.37c0,0.01,0.01,0.01,0.01,0.02	l-7.7,4.5L19.09,39.37z"/><linearGradient id="dFMIpH0DLBLP_Mye2ctJMc" x1="31.87" x2="31.87" y1="10.7" y2="35.152" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#8ab4ff"/><stop offset="1" stop-color="#e492ff"/></linearGradient><path fill="url(#dFMIpH0DLBLP_Mye2ctJMc)" d="M32,8.21l-20.6,11.9v23.78l7.69-4.52	c-1.18-2.17-1.85-4.65-1.85-7.3c0-2.88,0.8-5.56,2.18-7.87c2.68-4.46,7.57-7.46,13.15-7.46c5.27,0,10.11,2.67,12.94,7.12l-0.39,0.24	l-6.57,3.87c-1.35-1.99-3.57-3.16-5.98-3.16c-2.62,0-4.91,1.39-6.19,3.47c-0.68,1.11-1.07,2.4-1.07,3.79c0,1.16,0.27,2.25,0.75,3.22	l6.13-3.6h0.01l0.04,0.02l20.1-11.75L32,8.21z"/><linearGradient id="dFMIpH0DLBLP_Mye2ctJMd" x1="32" x2="32" y1="8.058" y2="57.784" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1a6dff"/><stop offset="1" stop-color="#c822ff"/></linearGradient><path fill="url(#dFMIpH0DLBLP_Mye2ctJMd)" d="M32.24,31.71l-6.17,3.6	c1.19,2.38,3.66,4.02,6.5,4.02c2.382,0,4.553-1.156,5.911-3.063l7.076,3.931C42.76,44.666,37.897,47.4,32.57,47.4	c-5.8,0-10.87-3.24-13.47-8.01l-7.7,4.5L32,55.79l20.6-11.9v-0.22V20.11l-0.26-0.15L32.24,31.71z M51,31h-2v2h2v2h-2v2h-2v-2h-2v2	h-2v-2h-2v-2h2v-2h-2v-2h2v-2h2v2h2v-2h2v2h2V31z M45,31h2v2h-2V31z M55.1,16.93L33.5,4.46c-0.93-0.53-2.07-0.53-3,0L8.9,16.93	c-0.92,0.54-1.5,1.53-1.5,2.6v24.94c0,1.07,0.58,2.06,1.5,2.6l21.6,12.47c0.93,0.53,2.07,0.53,3,0l21.6-12.47	c0.92-0.54,1.5-1.53,1.5-2.6V19.53C56.6,18.46,56.02,17.47,55.1,16.93z M54.6,44.47c0,0.36-0.19,0.69-0.5,0.87L32.5,57.81	c-0.31,0.17-0.69,0.17-1,0L9.9,45.34c-0.31-0.18-0.5-0.51-0.5-0.87V19.53c0-0.36,0.19-0.69,0.5-0.87L31.5,6.19	c0.31-0.17,0.69-0.17,1,0l21.6,12.47c0.31,0.18,0.5,0.51,0.5,0.87V44.47z"/>
-                                <title>C#</title>
-                            </svg>
-                            </div>
-                            <div class="techstack mx-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
-                                    <path fill="#6a1b9a" d="M44,24c0,5.694-2.381,10.831-6.2,14.481l-0.006,0.006C34.2,41.9,29.344,44,24,44 C12.956,44,4,35.044,4,24c0-5.338,2.087-10.188,5.5-13.775c0.006-0.013,0.013-0.019,0.019-0.025C13.169,6.381,18.306,4,24,4 C35.044,4,44,12.956,44,24z"></path><path fill="#7b1fa2" d="M38.375,37.862c-0.187,0.213-0.381,0.419-0.575,0.619l-0.006,0.006C34.2,41.9,29.344,44,24,44 C12.956,44,4,35.044,4,24c0-5.338,2.087-10.188,5.5-13.775c0.006-0.013,0.013-0.019,0.019-0.025c0.2-0.194,0.406-0.387,0.619-0.575 L38.375,37.862z"></path><path fill="#fff" d="M8.626,27.281c-0.236,0.004-0.463-0.091-0.625-0.262c-0.167-0.165-0.259-0.39-0.256-0.625 c-0.002-0.234,0.091-0.459,0.256-0.625c0.161-0.174,0.388-0.272,0.625-0.269c0.237-0.001,0.463,0.097,0.625,0.269 c0.169,0.164,0.263,0.39,0.262,0.625c0.002,0.236-0.093,0.462-0.262,0.625C9.087,27.188,8.861,27.283,8.626,27.281z"></path><path fill="#fff" d="M21.044,27.125h-1.638l-5.856-9.087c-0.146-0.224-0.267-0.463-0.363-0.712h-0.05 c0.056,0.519,0.077,1.041,0.062,1.562v8.237h-1.331V15.731h1.731l5.7,8.925c0.237,0.371,0.392,0.625,0.462,0.763h0.031 c-0.066-0.556-0.093-1.115-0.081-1.675v-8.012h1.331V27.125z"></path><path fill="#fff" d="M30.057,27.125h-6.056V15.731h5.775v1.206h-4.412v3.788h4.113v1.2h-4.113v3.95h4.7L30.057,27.125z"></path><path fill="#fff" d="M39.001,16.938h-3.312v10.188h-1.331V16.938h-3.275v-1.206h7.919V16.938z"></path><path fill="#f2f2f2" d="M20.326,34.875c-0.451,0.219-0.949,0.324-1.45,0.306c-0.674,0.03-1.327-0.232-1.794-0.719 c-0.459-0.514-0.701-1.186-0.675-1.875c-0.034-0.754,0.239-1.489,0.756-2.038c0.505-0.517,1.203-0.798,1.925-0.775 c0.427-0.015,0.853,0.06,1.25,0.219v0.625c-0.382-0.212-0.813-0.319-1.25-0.312c-0.557-0.016-1.094,0.213-1.469,0.625 c-0.39,0.444-0.592,1.022-0.562,1.612c-0.029,0.559,0.159,1.108,0.525,1.531c0.355,0.382,0.86,0.59,1.381,0.569 c0.48,0.013,0.954-0.109,1.369-0.35L20.326,34.875z"></path><path fill="#f2f2f2" d="M22.882,35.181c-0.503,0.016-0.989-0.187-1.331-0.556c-0.342-0.381-0.519-0.882-0.494-1.394 c-0.032-0.541,0.155-1.073,0.519-1.475c0.371-0.362,0.876-0.555,1.394-0.531c0.49-0.026,0.967,0.163,1.306,0.519 c0.332,0.4,0.5,0.912,0.469,1.431c0.026,0.527-0.156,1.043-0.506,1.438C23.89,34.989,23.395,35.197,22.882,35.181z M22.926,31.762 c-0.348-0.015-0.684,0.13-0.912,0.394c-0.24,0.31-0.36,0.696-0.338,1.088c-0.022,0.38,0.098,0.754,0.338,1.05 c0.231,0.26,0.566,0.402,0.912,0.388c0.34,0.02,0.67-0.118,0.894-0.375c0.227-0.31,0.338-0.691,0.312-1.075 c0.025-0.386-0.086-0.768-0.312-1.081C23.599,31.888,23.268,31.745,22.926,31.762z"></path><path fill="#f2f2f2" d="M27.663,31.95c-0.135-0.088-0.295-0.13-0.456-0.119c-0.256,0.009-0.49,0.145-0.625,0.363 c-0.186,0.295-0.276,0.64-0.256,0.988v1.912h-0.625v-3.75h0.625v0.781l0,0c0.069-0.242,0.205-0.459,0.394-0.625 c0.163-0.141,0.372-0.219,0.587-0.219c0.121-0.005,0.242,0.012,0.356,0.05V31.95z"></path><path fill="#f2f2f2" d="M31.326,33.375h-2.644c-0.018,0.349,0.096,0.693,0.319,0.963c0.234,0.234,0.557,0.356,0.887,0.338 c0.424-0.004,0.833-0.152,1.163-0.419v0.562c-0.386,0.255-0.844,0.38-1.306,0.356c-0.472,0.024-0.93-0.164-1.25-0.513 c-0.325-0.406-0.488-0.918-0.456-1.438c-0.022-0.52,0.154-1.03,0.494-1.425c0.313-0.362,0.772-0.564,1.25-0.55 c0.432-0.024,0.851,0.151,1.138,0.475c0.288,0.379,0.43,0.85,0.4,1.325L31.326,33.375z M30.701,32.869 c0.013-0.29-0.076-0.575-0.25-0.806c-0.173-0.196-0.426-0.302-0.688-0.288c-0.272-0.003-0.533,0.108-0.719,0.306 c-0.206,0.218-0.335,0.496-0.369,0.794L30.701,32.869z"></path>
-                                    <title>.NET Core</title>
-                                    </svg>
-                            </div>
-                            <div class="techstack mx-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
-                                    <path fill="#ffd600" d="M6,42V6h36v36H6z"></path><path fill="#000001" d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"></path>
-                                    <title>JavaScript</title>
-                                    </svg>
-                            </div>
-                            <div class="techstack mx-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
-                                    <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
-                                    <title>HTML</title>
-                                    </svg>
-                            </div>
-                            <div class="techstack mx-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
-                                    <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"></path><path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"></path>
-                                    <title>CSS</title>
-                                </svg>
-                            </div>
-                            <div class="techstack mx-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
-                                    <path fill="#5d4037" d="M42,17.3C42,37.8,24,44,24,44S6,37.8,6,17.3c0-2.5,0.2-4.6,0.4-6.3c0.3-2.5,2-4.5,4.4-5.1 C13.9,5,18.8,4,24,4s10.1,1,13.3,1.9c2.4,0.6,4.1,2.7,4.4,5.1C41.8,12.7,42,14.9,42,17.3z"></path><path fill="#4caf50" d="M24,7c4.9,0,9.5,1,12.5,1.8c1.2,0.3,2,1.3,2.2,2.6c0.2,1.9,0.3,3.9,0.3,5.9c0,15.6-11.5,21.9-15,23.4 c-3.5-1.6-15-7.9-15-23.4c0-2,0.1-4,0.3-5.9c0.1-1.3,1-2.3,2.2-2.6C14.5,8,19.1,7,24,7 M24,4c-5.2,0-10.1,1-13.3,1.9 C8.4,6.5,6.6,8.6,6.4,11C6.2,12.7,6,14.9,6,17.3C6,37.8,24,44,24,44s18-6.2,18-26.7c0-2.5-0.2-4.6-0.4-6.3c-0.3-2.5-2-4.5-4.4-5.1 C34.1,5,29.2,4,24,4L24,4z"></path><path fill="#dcedc8" d="M23 28H25V36H23z"></path><path fill="#4caf50" d="M24,10c0,0-6,5-6,13c0,5.2,3.3,8.5,5,10l1-3l1,3c1.7-1.5,5-4.8,5-10C30,15,24,10,24,10z"></path><path fill="#81c784" d="M24,10c0,0-6,5-6,13c0,5.2,3.3,8.5,5,10l1-3V10z"></path>
-                                    <title>MongoDb</title>
-                                    </svg>
-                            </div>
-                            <div class="techstack m-21">
-                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
-                                    <linearGradient id="k8yl7~hDat~FaoWq8WjN6a_VLKafOkk3sBX_gr1" x1="-1254.397" x2="-1261.911" y1="877.268" y2="899.466" gradientTransform="translate(1981.75 -1362.063) scale(1.5625)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#114a8b"></stop><stop offset="1" stop-color="#0669bc"></stop></linearGradient><path fill="url(#k8yl7~hDat~FaoWq8WjN6a_VLKafOkk3sBX_gr1)" d="M17.634,6h11.305L17.203,40.773c-0.247,0.733-0.934,1.226-1.708,1.226H6.697 c-0.994,0-1.8-0.806-1.8-1.8c0-0.196,0.032-0.39,0.094-0.576L15.926,7.227C16.173,6.494,16.86,6,17.634,6L17.634,6z"></path><path fill="#0078d4" d="M34.062,29.324H16.135c-0.458-0.001-0.83,0.371-0.831,0.829c0,0.231,0.095,0.451,0.264,0.608 l11.52,10.752C27.423,41.826,27.865,42,28.324,42h10.151L34.062,29.324z"></path><linearGradient id="k8yl7~hDat~FaoWq8WjN6b_VLKafOkk3sBX_gr2" x1="-1252.05" x2="-1253.788" y1="887.612" y2="888.2" gradientTransform="translate(1981.75 -1362.063) scale(1.5625)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-opacity=".3"></stop><stop offset=".071" stop-opacity=".2"></stop><stop offset=".321" stop-opacity=".1"></stop><stop offset=".623" stop-opacity=".05"></stop><stop offset="1" stop-opacity="0"></stop></linearGradient><path fill="url(#k8yl7~hDat~FaoWq8WjN6b_VLKafOkk3sBX_gr2)" d="M17.634,6c-0.783-0.003-1.476,0.504-1.712,1.25L5.005,39.595 c-0.335,0.934,0.151,1.964,1.085,2.299C6.286,41.964,6.493,42,6.702,42h9.026c0.684-0.122,1.25-0.603,1.481-1.259l2.177-6.416 l7.776,7.253c0.326,0.27,0.735,0.419,1.158,0.422h10.114l-4.436-12.676l-12.931,0.003L28.98,6H17.634z"></path><linearGradient id="k8yl7~hDat~FaoWq8WjN6c_VLKafOkk3sBX_gr3" x1="-1252.952" x2="-1244.704" y1="876.6" y2="898.575" gradientTransform="translate(1981.75 -1362.063) scale(1.5625)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3ccbf4"></stop><stop offset="1" stop-color="#2892df"></stop></linearGradient><path fill="url(#k8yl7~hDat~FaoWq8WjN6c_VLKafOkk3sBX_gr3)" d="M32.074,7.225C31.827,6.493,31.141,6,30.368,6h-12.6c0.772,0,1.459,0.493,1.705,1.224 l10.935,32.399c0.318,0.942-0.188,1.963-1.13,2.281C29.093,41.968,28.899,42,28.703,42h12.6c0.994,0,1.8-0.806,1.8-1.801 c0-0.196-0.032-0.39-0.095-0.575L32.074,7.225z"></path>
-                                    <title>Azure</title>
-                                    </svg>
-                            </div>
-                            <div class="techstack m-21">
-                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
-                                    <path fill="#F4511E" d="M42.2,22.1L25.9,5.8C25.4,5.3,24.7,5,24,5c0,0,0,0,0,0c-0.7,0-1.4,0.3-1.9,0.8l-3.5,3.5l4.1,4.1c0.4-0.2,0.8-0.3,1.3-0.3c1.7,0,3,1.3,3,3c0,0.5-0.1,0.9-0.3,1.3l4,4c0.4-0.2,0.8-0.3,1.3-0.3c1.7,0,3,1.3,3,3s-1.3,3-3,3c-1.7,0-3-1.3-3-3c0-0.5,0.1-0.9,0.3-1.3l-4-4c-0.1,0-0.2,0.1-0.3,0.1v10.4c1.2,0.4,2,1.5,2,2.8c0,1.7-1.3,3-3,3s-3-1.3-3-3c0-1.3,0.8-2.4,2-2.8V18.8c-1.2-0.4-2-1.5-2-2.8c0-0.5,0.1-0.9,0.3-1.3l-4.1-4.1L5.8,22.1C5.3,22.6,5,23.3,5,24c0,0.7,0.3,1.4,0.8,1.9l16.3,16.3c0,0,0,0,0,0c0.5,0.5,1.2,0.8,1.9,0.8s1.4-0.3,1.9-0.8l16.3-16.3c0.5-0.5,0.8-1.2,0.8-1.9C43,23.3,42.7,22.6,42.2,22.1z"></path>
-                                    <title>Git</title>
-                                    </svg>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div id="PortfolioContent" style="display: none;">
-                    <section id="portfolioSection" class="d-flex flex-column align-items-center" style="width: 55%; margin: 0 auto 80px auto;">
-                        <h1 class="titleH1" style="color: black;">
-                            I'm a Curious
-                            <div class="Tag1 Tag">.NET</div>
-                            Developer
-                        </h1>
-                        <div class="w-100 center justify-content-center" style="height: 300px;">
-                            <iframe src="https://lottie.host/embed/59db98d4-b2fb-4bce-adcc-9681a3085d28/gAMxpeutmX.lottie" style="width: 100%; height: 100%;"></iframe>
-                        </div>
-                        <div class="mt-4">
-
-                            <p class="mt-4">
-                                I'am a curios .Net developer with a future in fullstack development. As a developer Ive heard that I learn quick and have a good understanding of the code i write and the code others have done before, for refactoring. 
-                            </p>
-                                
-                            <p class="mt-4">
-                                I have solid experience working with MySQL/NoSQL and .NET Core for developing efficient and scalable applications. I'm also proficient in JavaScript,HTML and CSS, allowing me to create responsive and user-friendly web interfaces. 
-                            </p>
-                            <p class="mt-4">
-                                I have worked alot with Clean Architecture and have some hands on experience microservices, which I apply to build well-structured, maintainable, and scalable software solutions. Additionally, I have hands-on experience with Azure Service Bus, Azure DevOps, and the Azure Portal, enabling me to manage cloud-based applications and streamline deployment processes. This website is deployed using github actions and hosted on Azure.
-                            </p>
-                            <p class="mt-4">
-                                I'm always looking to improve my skills and stay up to date with modern development practices, for example scrum master experience, I would also like to improve with websockets and backround services in larger programs. But as Im at the start of my career I'm open to all new experiences and challenges.
-                            </p>
-                        </div>
-                    </section>
-                    <section>
-                        <div id="portfolioSection" class="container mt-4 BiggerProjectsDiv" style="width: 55%; margin: 0 auto 80px auto;">
-                            <h1 class=" text-center titleH1" style="color: black; font-size: 40px;">Bigger projects</h1>
-                            <p class="mt-4 introProjectDiv text-center">
-                                I've worked on several projects that have helped me develop my skills and gain experience in building robust and scalable applications. Here are some of the projects.
-                            </p>
-
-                            <div class="mt-4">
-                                <h3 class="text-center titleH1" style="color: black; display: flex; align-items: center; justify-content: center;">
-                                    BoostApp
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="40" height="40" viewBox="0 0 256 256" xml:space="preserve" style="margin-left: 10px;">
-                                    <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
-                                        <circle cx="45" cy="45" r="45" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,169,174); fill-rule: nonzero; opacity: 1;" transform="  matrix(1 0 0 1 0 0) "/>
-                                        <path d="M 79.556 45.366 l 1.48 -0.006 c 1.402 0 2.544 -1.141 2.544 -2.544 v -2.456 h 0.479 c 1.403 0 2.545 -1.141 2.545 -2.544 v -2.674 c 0 -1.403 -1.142 -2.544 -2.545 -2.544 H 83.58 v -2.456 c 0 -1.403 -1.142 -2.544 -2.544 -2.544 h -1.48 v -0.902 c 0 -1.403 -1.142 -2.544 -2.544 -2.544 h -3.59 c -1.402 0 -2.544 1.141 -2.544 2.544 v 6.566 h -0.199 c -0.816 -0.758 -1.89 -1.188 -3.036 -1.188 h -1.37 c -1.146 0 -2.22 0.431 -3.036 1.188 H 26.764 c -0.816 -0.758 -1.89 -1.188 -3.036 -1.188 h -1.371 c -1.147 0 -2.22 0.43 -3.037 1.188 h -0.198 v -6.566 c 0 -1.403 -1.142 -2.544 -2.544 -2.544 h -3.589 c -1.403 0 -2.544 1.141 -2.544 2.544 v 0.902 h -1.48 c -1.403 0 -2.544 1.141 -2.544 2.544 v 2.456 H 5.94 c -1.403 0 -2.544 1.141 -2.544 2.544 v 2.674 c 0 1.403 1.141 2.544 2.544 2.544 h 0.48 v 2.456 c 0 1.403 1.141 2.544 2.544 2.544 h 1.48 v 0.006 c 0 1.403 1.141 2.544 2.544 2.544 h 3.589 c 0.043 0 0.086 -0.001 0.129 -0.003 c -0.941 3.577 -1.742 7.138 -1.742 10.234 c 0 0.348 0.091 0.69 0.264 0.992 c 2.649 4.637 5.458 7.81 8.513 9.652 c 0.025 0.017 0.064 0.041 0.091 0.058 c 0.326 0.195 0.657 0.379 0.951 0.525 c 0.02 0.012 0.042 0.022 0.064 0.033 c 0.038 0.021 0.079 0.042 0.096 0.051 c 0.064 0.033 0.13 0.063 0.212 0.1 c 0.18 0.084 0.359 0.167 0.512 0.231 c 0.057 0.024 0.114 0.047 0.157 0.063 c 0.009 0.004 0.018 0.007 0.027 0.011 c 0.025 0.011 0.066 0.028 0.083 0.035 c 0.141 0.056 0.282 0.11 0.464 0.175 c 0.185 0.066 0.373 0.125 0.558 0.183 l 0.279 0.088 c 0.009 0.003 0.017 0.006 0.026 0.008 c 0.041 0.014 0.059 0.02 0.104 0.029 c 0.013 0.003 0.027 0.007 0.041 0.01 c 0.052 0.014 0.104 0.025 0.144 0.033 c 0.051 0.013 0.103 0.025 0.154 0.038 c 0.092 0.297 0.186 0.581 0.282 0.853 l 0.043 0.119 c 0.105 0.29 0.214 0.57 0.311 0.802 c 0.006 0.015 0.034 0.083 0.04 0.098 c 0.092 0.219 0.188 0.432 0.276 0.62 c 0.004 0.01 0.042 0.09 0.047 0.099 c 0.08 0.168 0.16 0.333 0.229 0.463 c 0.01 0.021 0.021 0.042 0.032 0.063 l 0.05 0.091 c 0.014 0.027 0.029 0.055 0.044 0.082 c 0.087 0.162 0.176 0.323 0.27 0.483 c 0.002 0.004 0.056 0.09 0.058 0.094 c 0.178 0.298 0.364 0.584 0.572 0.884 c 0.369 0.527 0.771 1.031 1.268 1.584 c 0.209 0.23 0.425 0.458 0.606 0.639 c 0.023 0.025 0.047 0.051 0.071 0.075 c 0.515 0.516 1.062 1.013 1.549 1.442 c -0.02 2.693 0.027 6.29 0.191 9.607 C 37.27 89.495 41.076 90 45 90 c 3.995 0 7.866 -0.527 11.553 -1.504 c 0.131 -2.682 0.202 -5.78 0.193 -8.874 c -0.001 -0.23 -0.002 -0.457 -0.004 -0.679 c 2.604 -2.295 4.493 -4.387 5.75 -8.488 c 0.022 -0.006 0.044 -0.011 0.064 -0.017 l 0.4 -0.107 l 0.119 -0.034 l 0.245 -0.074 c 0.13 -0.04 0.26 -0.08 0.439 -0.142 c 0.215 -0.076 0.428 -0.158 0.612 -0.235 c 0.021 -0.009 0.104 -0.042 0.125 -0.051 c 0.269 -0.113 0.533 -0.239 0.795 -0.369 c 0.025 -0.012 0.05 -0.023 0.075 -0.036 c 0.273 -0.139 0.544 -0.285 0.782 -0.425 l 0.225 -0.132 c 3.129 -1.89 5.938 -5.063 8.588 -9.7 c 0.173 -0.302 0.264 -0.645 0.264 -0.992 c 0 -3.096 -0.801 -6.655 -1.741 -10.231 h 3.526 C 78.414 47.91 79.556 46.769 79.556 45.366 z M 38.951 42.401 c -1.337 0.632 -2.316 1.701 -2.791 3.066 c -0.542 1.557 -0.378 3.373 0.447 5.241 c -0.485 0.492 -0.785 1.167 -0.785 1.91 v 1.188 c 0 1.016 0.343 1.977 0.93 2.752 c -0.095 -0.02 -0.191 -0.038 -0.288 -0.054 c -0.957 -0.152 -1.964 -0.098 -2.98 0.168 c -0.062 -0.073 -0.125 -0.144 -0.19 -0.213 c -0.215 -0.227 -0.467 -0.452 -0.781 -0.696 l -0.178 -0.133 c -1.45 -1.057 -3.229 -1.613 -4.957 -1.634 c 0.062 -1.79 -0.123 -4.101 -0.381 -7.013 c -0.206 -2.326 -0.418 -4.723 -0.385 -6.489 c 0.274 -0.176 0.523 -0.391 0.739 -0.636 h 15.024 C 41.055 40.354 39.867 41.178 38.951 42.401 z M 63.192 46.984 c -0.259 2.918 -0.443 5.23 -0.381 7.021 c -1.649 0.021 -3.35 0.522 -4.751 1.475 c -0.065 0.045 -0.129 0.092 -0.25 0.184 l -0.146 0.109 c -0.31 0.242 -0.555 0.461 -0.772 0.692 c -0.063 0.067 -0.126 0.137 -0.187 0.209 c -0.642 -0.165 -1.28 -0.249 -1.905 -0.249 c -0.335 0 -0.666 0.024 -0.99 0.072 c -0.122 0.019 -0.243 0.04 -0.364 0.065 c 0.59 -0.776 0.934 -1.739 0.934 -2.757 v -1.188 c 0 -0.727 -0.286 -1.388 -0.753 -1.876 c 0.79 -1.706 0.96 -3.306 0.505 -4.773 c -0.398 -1.281 -1.256 -2.389 -2.559 -3.312 c 0.081 -0.231 0.12 -0.479 0.111 -0.733 c -0.029 -0.807 -0.54 -1.517 -1.296 -1.801 c -0.252 -0.095 -0.509 -0.183 -0.77 -0.263 h 13.182 c 0.229 0.247 0.49 0.46 0.776 0.635 C 63.611 42.263 63.398 44.66 63.192 46.984 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,156,161); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <rect x="16.17" y="32.26" rx="0" ry="0" width="57.43" height="2.6" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(226,226,226); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) "/>
-                                        <path d="M 16.578 42.91 h -3.59 c -0.3 0 -0.544 -0.244 -0.544 -0.544 v -18.67 c 0 -0.3 0.244 -0.544 0.544 -0.544 h 3.59 c 0.3 0 0.544 0.244 0.544 0.544 v 18.67 C 17.122 42.666 16.878 42.91 16.578 42.91 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 73.422 42.91 h 3.59 c 0.3 0 0.544 -0.244 0.544 -0.544 v -18.67 c 0 -0.3 -0.244 -0.544 -0.544 -0.544 h -3.59 c -0.3 0 -0.544 0.244 -0.544 0.544 v 18.67 C 72.878 42.666 73.122 42.91 73.422 42.91 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 5.94 35.359 h 2.48 v -3.762 H 5.94 c -0.3 0 -0.544 0.244 -0.544 0.544 v 2.674 C 5.396 35.116 5.64 35.359 5.94 35.359 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(226,226,226); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 84.06 35.359 h -2.48 v -3.762 h 2.48 c 0.3 0 0.544 0.244 0.544 0.544 v 2.674 C 84.604 35.116 84.36 35.359 84.06 35.359 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(226,226,226); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 8.964 40.359 H 11.9 c 0.3 0 0.544 -0.244 0.544 -0.544 V 27.142 c 0 -0.3 -0.244 -0.544 -0.544 -0.544 H 8.964 c -0.3 0 -0.544 0.244 -0.544 0.544 v 12.674 C 8.42 40.116 8.664 40.359 8.964 40.359 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(52,96,143); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 81.036 40.359 H 78.1 c -0.3 0 -0.544 -0.244 -0.544 -0.544 V 27.142 c 0 -0.3 0.244 -0.544 0.544 -0.544 h 2.936 c 0.3 0 0.544 0.244 0.544 0.544 v 12.674 C 81.58 40.116 81.336 40.359 81.036 40.359 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(52,96,143); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 68.637 33.112 l -3.406 1.785 c 1.33 3.562 -1.68 16.714 0.208 18.695 c -2.762 -1.502 -7.057 0.038 -7.884 2.522 c -2.482 -1.211 -4.82 -0.803 -6.176 0.973 c -1.122 -0.341 -2.406 -1.095 -3.233 -1.784 l -3.046 0 h -0.006 H 45.09 l -3.046 0 c -0.827 0.689 -2.112 1.443 -3.233 1.784 c -1.356 -1.776 -3.694 -2.184 -6.176 -0.973 c -0.827 -2.483 -5.121 -4.024 -7.884 -2.522 c 1.888 -1.982 -1.122 -15.134 0.208 -18.695 l -3.406 -1.785 c -0.839 6.789 -4.589 15.664 -4.589 22.029 c 2.758 4.828 6.728 9.85 12.329 10.587 c 1.217 4.828 4.678 6.751 7.656 9.312 h 8.146 h 8.146 c 2.978 -2.561 6.439 -4.484 7.656 -9.312 c 5.601 -0.738 9.57 -5.759 12.329 -10.587 C 73.226 48.776 69.476 39.902 68.637 33.112 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,204,154); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 62.897 64.84 c -0.037 0.159 -0.082 0.307 -0.122 0.461 c 0.839 -0.268 1.635 -0.635 2.394 -1.078 C 64.442 64.51 63.688 64.726 62.897 64.84 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,204,154); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 59.177 54.139 c 0.127 0.059 0.251 0.102 0.379 0.17 c 0.054 -0.177 0.124 -0.35 0.206 -0.518 C 59.558 53.899 59.362 54.014 59.177 54.139 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,204,154); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 30.294 63.84 c -5.601 -0.808 -8.57 -4.308 -11.329 -9.597 c 0 -5.621 2.436 -13.677 3.82 -20.486 l -1.232 -0.646 c -0.839 6.789 -4.589 15.664 -4.589 22.029 c 2.758 4.828 6.728 9.85 12.329 10.587 c 1.217 4.828 4.678 6.751 7.656 9.312 h 2 C 35.972 72.235 31.511 69.129 30.294 63.84 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(240,180,121); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 59.897 63.84 c 5.601 -0.808 8.57 -4.308 11.329 -9.597 c 0 -5.621 -2.436 -13.677 -3.82 -20.486 l 1.232 -0.646 c 0.839 6.789 4.589 15.664 4.589 22.029 c -2.758 4.828 -6.728 9.85 -12.329 10.587 c -1.217 4.828 -4.678 6.751 -7.656 9.312 h -2 C 54.219 72.235 58.68 69.129 59.897 63.84 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(240,180,121); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 23.728 37.049 c 0.321 0 0.625 -0.066 0.907 -0.176 c 0.02 -0.379 0.053 -0.73 0.102 -1.046 c -0.31 0.138 -0.648 0.223 -1.009 0.223 h -1.371 c -0.45 0 -0.872 -0.12 -1.236 -0.329 c -0.058 0.289 -0.124 0.583 -0.189 0.876 c 0.404 0.283 0.894 0.453 1.425 0.453 H 23.728 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(240,180,121); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 69.049 35.604 c -0.401 0.277 -0.882 0.446 -1.406 0.446 h -1.371 c -0.283 0 -0.553 -0.051 -0.806 -0.138 c 0.044 0.311 0.075 0.653 0.093 1.021 c 0.227 0.068 0.463 0.116 0.713 0.116 h 1.371 c 0.607 0 1.155 -0.226 1.587 -0.586 C 69.167 36.175 69.105 35.887 69.049 35.604 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(240,180,121); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 59.671 53.838 c -1.015 0.555 -1.807 1.35 -2.115 2.277 c -2.482 -1.211 -4.82 -0.803 -6.176 0.973 c -1.122 -0.341 -2.406 -1.095 -3.233 -1.784 h -3.046 H 45.09 h -3.046 c -0.827 0.689 -2.112 1.443 -3.233 1.784 c -1.356 -1.776 -3.694 -2.184 -6.176 -0.973 c -0.309 -0.927 -1.101 -1.722 -2.115 -2.277 c -3.02 2.736 -5.159 5.998 -6.529 9.721 c 1.581 1.119 3.339 1.911 5.303 2.17 c 1.217 4.828 3.187 6.751 6.164 9.312 c -0.056 4.037 0.05 9.935 0.422 14.034 C 38.825 89.68 41.875 90 45 90 c 3.194 0 6.309 -0.338 9.315 -0.971 c 0.368 -4.097 0.473 -9.966 0.417 -13.988 c 2.978 -2.561 4.948 -4.484 6.164 -9.312 c 1.964 -0.259 3.722 -1.051 5.303 -2.17 C 64.831 59.836 62.691 56.574 59.671 53.838 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(52,96,143); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 59.487 62.799 c -0.424 -0.111 -0.848 0.134 -0.967 0.556 c -1.217 4.328 -3.987 7.758 -8.577 10.137 c -1.332 0.69 -1.597 2.452 -0.596 3.569 c 3.034 3.384 3.077 8.477 0.705 12.65 c 1.442 -0.161 2.864 -0.387 4.261 -0.681 c 0.369 -4.096 0.475 -9.965 0.419 -13.989 c 2.978 -2.561 4.948 -4.484 6.164 -9.312 c 0.214 -0.028 0.425 -0.065 0.634 -0.106 c 0.225 -0.043 0.447 -0.096 0.667 -0.153 c 0.188 -0.049 0.374 -0.105 0.558 -0.164 c 0.112 -0.035 0.224 -0.07 0.335 -0.109 c 0.182 -0.065 0.363 -0.134 0.541 -0.207 c 0.046 -0.019 0.091 -0.039 0.137 -0.058 c 0.854 -0.366 1.664 -0.83 2.431 -1.372 c -0.271 -0.735 -0.58 -1.448 -0.912 -2.147 C 63.328 62.718 61.391 63.296 59.487 62.799 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 40.259 73.491 c -4.589 -2.378 -7.36 -5.808 -8.577 -10.137 c -0.119 -0.422 -0.543 -0.666 -0.967 -0.556 c -1.907 0.498 -3.847 -0.082 -5.81 -1.393 c -0.333 0.701 -0.643 1.415 -0.914 2.152 c 0.002 0.001 0.004 0.003 0.005 0.004 c 0.187 0.132 0.377 0.26 0.57 0.383 c 0.028 0.018 0.057 0.035 0.086 0.053 c 0.37 0.233 0.749 0.447 1.137 0.64 c 0.021 0.01 0.04 0.022 0.061 0.032 c 0.139 0.068 0.281 0.129 0.422 0.192 c 0.133 0.059 0.266 0.116 0.402 0.17 c 0.12 0.048 0.24 0.095 0.362 0.139 c 0.211 0.076 0.424 0.146 0.64 0.209 c 0.057 0.017 0.112 0.037 0.169 0.052 c 0.281 0.077 0.567 0.141 0.857 0.196 c 0.196 0.037 0.393 0.073 0.593 0.099 c 0.052 0.207 0.108 0.401 0.162 0.598 c 0.055 0.196 0.111 0.386 0.169 0.572 c 0.023 0.075 0.047 0.15 0.071 0.224 c 0.058 0.18 0.117 0.356 0.178 0.527 c 0.025 0.072 0.051 0.142 0.077 0.212 c 0.062 0.167 0.125 0.332 0.189 0.491 c 0.027 0.066 0.054 0.13 0.081 0.195 c 0.066 0.158 0.134 0.314 0.203 0.464 c 0.027 0.058 0.054 0.113 0.081 0.17 c 0.073 0.152 0.146 0.303 0.222 0.448 c 0.024 0.046 0.049 0.09 0.074 0.136 c 0.081 0.151 0.163 0.3 0.247 0.444 c 0.016 0.028 0.033 0.054 0.05 0.081 c 0.629 1.051 1.355 1.929 2.191 2.769 c 0.009 0.009 0.018 0.018 0.027 0.027 c 0.135 0.136 0.274 0.271 0.415 0.405 c 0.01 0.009 0.019 0.018 0.029 0.028 c 0.449 0.426 0.926 0.85 1.434 1.29 c 0.001 0.001 0.001 0.002 0.002 0.003 c 0.087 0.076 0.173 0.15 0.262 0.227 c -0.002 0.11 -0.002 0.225 -0.004 0.336 c 0 0.002 0.001 0.004 0.001 0.007 c -0.046 3.978 0.065 9.702 0.426 13.691 c 1.404 0.289 2.833 0.509 4.282 0.663 c -2.387 -4.178 -2.35 -9.286 0.691 -12.678 C 41.856 75.943 41.591 74.181 40.259 73.491 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 42.079 79.033 c 0.46 -0.311 0.921 -0.465 1.381 -0.584 c 0.46 -0.109 0.921 -0.16 1.381 -0.161 c 0.46 -0.001 0.921 0.05 1.381 0.159 c 0.46 0.118 0.921 0.274 1.381 0.586 c -0.46 0.312 -0.921 0.468 -1.381 0.586 c -0.46 0.109 -0.921 0.16 -1.381 0.159 c -0.46 -0.001 -0.921 -0.052 -1.381 -0.161 C 43 79.499 42.539 79.344 42.079 79.033 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 40.676 82.483 c 0.694 -0.311 1.388 -0.465 2.083 -0.584 c 0.694 -0.109 1.388 -0.16 2.083 -0.161 c 0.694 -0.001 1.388 0.05 2.083 0.159 c 0.694 0.118 1.388 0.274 2.083 0.586 c -0.694 0.312 -1.388 0.468 -2.083 0.586 c -0.694 0.109 -1.388 0.16 -2.083 0.159 c -0.694 -0.001 -1.388 -0.052 -2.083 -0.161 C 42.065 82.949 41.37 82.794 40.676 82.483 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 39.274 85.933 c 0.928 -0.311 1.856 -0.465 2.784 -0.584 c 0.928 -0.109 1.856 -0.16 2.784 -0.161 c 0.928 -0.001 1.856 0.05 2.784 0.159 c 0.928 0.118 1.856 0.274 2.784 0.586 c -0.928 0.312 -1.856 0.468 -2.784 0.586 c -0.928 0.109 -1.856 0.16 -2.784 0.159 c -0.928 -0.001 -1.856 -0.052 -2.784 -0.161 C 41.13 86.399 40.202 86.244 39.274 85.933 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 33.585 63.102 c 0.756 0.779 1.421 1.566 2.111 2.297 c 0.689 0.731 1.402 1.399 2.163 1.97 c 0.765 0.566 1.579 1.039 2.487 1.37 c 0.909 0.329 1.893 0.522 2.966 0.694 c -0.989 0.444 -2.12 0.594 -3.238 0.437 c -1.119 -0.155 -2.206 -0.625 -3.105 -1.306 c -0.907 -0.676 -1.633 -1.539 -2.198 -2.466 C 34.206 65.169 33.794 64.166 33.585 63.102 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 56.617 63.102 c -0.209 1.064 -0.621 2.067 -1.186 2.996 c -0.564 0.927 -1.291 1.791 -2.198 2.466 c -0.899 0.68 -1.986 1.15 -3.105 1.306 c -1.118 0.157 -2.249 0.007 -3.238 -0.437 c 1.072 -0.172 2.057 -0.365 2.966 -0.694 c 0.908 -0.331 1.723 -0.804 2.487 -1.37 c 0.762 -0.57 1.474 -1.239 2.163 -1.97 C 55.196 64.668 55.861 63.881 56.617 63.102 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 52.18 60.717 c -0.596 0.049 -1.066 0.103 -1.533 0.176 c -0.462 0.067 -0.905 0.143 -1.351 0.225 l -1.358 0.256 l -1.53 0.305 c 0.166 -0.584 0.581 -1.033 1.044 -1.372 c 0.471 -0.334 1.015 -0.556 1.581 -0.657 c 0.566 -0.102 1.159 -0.083 1.722 0.079 C 51.311 59.898 51.857 60.203 52.18 60.717 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 38.022 60.717 c 0.323 -0.514 0.869 -0.819 1.425 -0.988 c 0.563 -0.162 1.156 -0.181 1.722 -0.079 c 0.566 0.101 1.11 0.322 1.581 0.657 c 0.463 0.339 0.877 0.788 1.044 1.372 l -1.53 -0.305 l -1.358 -0.256 c -0.446 -0.081 -0.889 -0.157 -1.351 -0.225 C 39.089 60.82 38.619 60.766 38.022 60.717 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 45.101 59.256 c 1.663 0 2.885 -1.431 3.987 -3.271 c -0.457 -0.274 -0.597 -0.394 -0.941 -0.68 l -3.046 0 l -3.046 0 c -0.344 0.286 -0.484 0.406 -0.941 0.681 C 42.216 57.825 43.438 59.256 45.101 59.256 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(240,180,121); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 51.003 48.321 l -0.234 3.639 l 0 0 c -0.231 2.764 -2.051 5.14 -4.66 6.082 l 0 0 c -0.326 0.118 -0.667 0.177 -1.009 0.177 l 0 0 c -0.341 0 -0.683 -0.059 -1.009 -0.177 l 0 0 c -2.608 -0.943 -4.429 -3.318 -4.66 -6.082 l -0.22 -3.639 v -4.015 L 51.003 44.2 V 48.321 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,204,153); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 51.003 48.321 c 2.604 -3.875 1.422 -6.516 -2.77 -8.176 c 0.091 -0.383 0.619 -0.766 1.453 -1.149 c -3.448 -1.295 -7.548 -0.999 -9.424 2.03 c -2.57 0.866 -3.357 3.743 -1.049 7.294 c 0.258 -4.347 3.079 -3.994 6.487 -2.568 c 1.723 0.659 3.218 0.591 4.628 0.372 C 51.098 45.981 51.06 47.352 51.003 48.321 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(68,68,68); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 39.667 53.267 c -1.066 -0.31 -1.845 -1.294 -1.845 -2.459 V 49.62 c 0 -0.397 0.322 -0.719 0.719 -0.719 h 0.707 L 39.667 53.267 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,204,153); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 50.535 53.267 c 1.066 -0.31 1.845 -1.294 1.845 -2.46 V 49.62 c 0 -0.397 -0.322 -0.719 -0.719 -0.719 h -0.68 L 50.535 53.267 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,204,153); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 47.597 53.595 c -1.664 2.187 -3.328 2.202 -4.992 0 H 47.597 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 41.945 49.43 c 0.397 -0.87 1.779 -0.873 2.176 0 c -0.472 0.089 -0.774 0.081 -1.088 0.089 C 42.719 49.509 42.417 49.518 41.945 49.43 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(229,171,115); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 46.081 49.43 c 0.397 -0.87 1.779 -0.873 2.176 0 c -0.472 0.089 -0.774 0.081 -1.088 0.089 C 46.855 49.509 46.552 49.518 46.081 49.43 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(229,171,115); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 58.024 55.233 c 0.401 -0.549 0.973 -1.026 1.648 -1.395 c 3.02 2.736 5.159 5.998 6.529 9.721 c -0.565 0.4 -1.153 0.756 -1.765 1.062 C 62.858 61.157 60.745 58.013 58.024 55.233 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 32.168 55.233 c -0.401 -0.549 -0.973 -1.026 -1.648 -1.395 c -3.02 2.736 -5.159 5.998 -6.529 9.721 c 0.565 0.4 1.153 0.756 1.765 1.062 C 27.334 61.157 29.446 58.013 32.168 55.233 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 45.096 51.674 c 0.219 -0.067 0.47 0.013 0.735 0.156 c -0.372 0.201 -0.737 0.332 -1.111 0.429 c -0.154 0.04 -0.311 -0.052 -0.35 -0.206 c -0.012 -0.047 -0.012 -0.094 -0.001 -0.139 l 0.037 -0.153 c 0.024 -0.1 0.065 -0.246 0.095 -0.4 c 0.041 -0.152 0.067 -0.316 0.122 -0.478 c 0.099 -0.326 0.22 -0.664 0.471 -0.983 C 44.958 50.554 45.289 51.152 45.096 51.674 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(229,171,115); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 24.737 36.049 h -2.38 c -1.374 0 -2.488 -1.114 -2.488 -2.488 v 0 c 0 -1.374 1.114 -2.488 2.488 -2.488 h 1.371 c 1.374 0 2.488 1.114 2.488 2.488 v 1.009 C 26.216 35.387 25.554 36.049 24.737 36.049 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,204,154); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path d="M 67.643 36.049 h -2.104 c -0.969 0 -1.754 -0.785 -1.754 -1.754 v -0.733 c 0 -1.374 1.114 -2.488 2.488 -2.488 h 1.371 c 1.374 0 2.488 1.114 2.488 2.488 v 0 C 70.131 34.936 69.017 36.049 67.643 36.049 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,204,154); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                    </g>
-                                    </svg>
-                                </h3>
-                                <p class="mt-4 introProjectDiv text-center">The boostapp was an internal application I took part in refactor and develop using .NET8 along with hosting on Azure Portal the applications purpose was to help the company empolees to complete challenges as report working hours in time, completing team challenges as taking 10 000 steps each day, doing yoga together etc etc.
-                                </p>
-                                <p class="mt-4 introProjectDiv text-center">
-                                    During the applications development we used Azure devops for CI-CD, it was built with a microservice architecture. For the diffrent apis to comunicate we used Azure servicebus witch was fun to learn. other features was wokring with diffrent databases as cosmos db along with SQL in the many apis.
-                                </p> 
-                            </div>
-
-                            <div class="mt-4">
-                                <h3 class="text-center titleH1" style="color: black; display: flex; align-items: center; justify-content: center;">
-                                    EmailBuilder 
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="40" height="40" viewBox="0 0 256 256" xml:space="preserve" style="margin-left: 10px;">
-                                        <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
-                                            <circle cx="45" cy="45" r="45" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(35,91,216); fill-rule: nonzero; opacity: 1;" transform="  matrix(1 0 0 1 0 0) "/>
-                                            <path d="M 64.567 26.495 H 25.433 c -3.142 0 -5.689 2.547 -5.689 5.689 v 25.631 c 0 3.142 2.547 5.689 5.689 5.689 h 39.135 c 3.142 0 5.689 -2.547 5.689 -5.689 V 32.184 C 70.256 29.043 67.709 26.495 64.567 26.495 z M 63.343 57.47 c -0.295 0.306 -0.688 0.46 -1.081 0.46 c -0.374 0 -0.749 -0.14 -1.04 -0.419 l -9.419 -9.065 l -1.357 1.489 c -1.394 1.528 -3.378 2.404 -5.446 2.404 c -2.068 0 -4.053 -0.876 -5.446 -2.404 l -1.337 -1.467 l -9.022 9.023 c -0.292 0.293 -0.677 0.439 -1.061 0.439 s -0.768 -0.146 -1.061 -0.439 c -0.586 -0.586 -0.586 -1.535 0 -2.121 l 9.12 -9.121 L 26.63 35.754 c -0.558 -0.612 -0.514 -1.561 0.098 -2.119 c 0.613 -0.558 1.562 -0.514 2.119 0.098 l 12.924 14.18 c 0.838 0.92 1.985 1.426 3.229 1.426 s 2.392 -0.506 3.229 -1.426 l 2.422 -2.657 l 10.502 -11.522 c 0.559 -0.612 1.507 -0.655 2.119 -0.098 c 0.612 0.558 0.656 1.506 0.098 2.119 l -9.546 10.474 l 9.477 9.121 C 63.898 55.924 63.917 56.873 63.343 57.47 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        </g>
-                                    </svg>
-                                </h3>
-                                <p class="mt-4 introProjectDiv text-center">This project is an internal email sender. The company structure is built on three levels: Business Area, Business Unit, and Competence Unit. The application is role-based, for example ensuring that employees at the Competence Unit level cannot see emails from higher levels. To fetch users and groups, I connected the application's API to Microsoft's Graph API to access Azure Entra ID. 
-                                </p>
-                                <p class="mt-4 introProjectDiv text-center">
-                                    I had the opportunity to build the backend from scratch using Azure DevOps for CI/CD, employing design patterns such as clean architecture and generic repository. To reduce costs, the team decided to use NoSQL with MongoDB, which was both fun and necessary to learn. The project is hosted a Azure portal.
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section>
-                        <div class="container mt-4 BiggerProjectsDiv" style="width: 55%; margin: 0 auto 80px auto;">
-                            <h1 class=" text-center titleH1" style="color: black; font-size: 40px;">My hobby projects</h1>
-                    </section>
-
-                        <section id="cardSection" class="d-flex justify-content-center mb-4 ">
-                            <a href="https://github.com/Nordstroem1/BookHandler" target="_blank" class="ProjectDiv bookproject text-center" style="text-decoration: none; color: inherit;">
-                                <div class="container">
-                                    <h1 class="titleH1">Classic Book-API</h1>
-                                </div>
-                                <div class="DescriptionDiv container">
-                                    <p class="textdiv text-center">
-                                        A classic Book API made the right way for CRUD operations, featuring JWT token-based user authorization.
+                                <div class="PersonalDiv mt-4">
+                                    <p class="mt-4">
+                                        I am a dedicated .NET developer who is 25 years old and eager to start my
+                                        career, with a passion for creating scalable projects that follows clean
+                                        architecture principles. My enthusiasm for development stems from the limitless
+                                        opportunities for both personal and technical growth.
+                                    </p>
+                                    <p class="mt-4">
+                                        My objective is to continually evolve as a developer and individual. I am social
+                                        as a person and always like to evolve on a personal basis even if it requires
+                                        something challenging. I've heard from others that I'm good at taking action,
+                                        which I think comes from my time in the armed forces. It's really important for
+                                        me to work in a team that values collaboration and knowledge sharing along with
+                                        passion for what they are developing.
                                     </p>
                                 </div>
-                                <div class="TagDiv container d-flex justify-content-center flex-wrap">
-                                    <div class="Tag1 Tag mx-2">.NET8</div>
-                                    <div class="Tag2 Tag mx-2">MySQL</div>
-                                    <div class="Tag3 Tag mx-2">Entity framework</div>
-                                    <div class="Tag4 Tag mx-2">MediatR</div>
-                                    <div class="Tag5 Tag mx-2">JWT</div>
-                                    <div class="Tag9 Tag mx-2">Clean architecture</div>
-                                </div>
-                            </a>
-                        </section>
+                            </section>
 
-                        <section id="cardSection" class="d-flex justify-content-center mb-4">
-                            <a href="https://github.com/Nordstroem1/EventForFriends" target="_blank" class="ProjectDiv EventManager text-center" style="text-decoration: none; color: inherit;">
-                                <div class="container">
-                                    <h1 class="titleH1">Event manager - in progress</h1>
+                            <section id="SecondSection" class="d-flex flex-column align-items-center"
+                                style="width: 60%; margin: 0 auto 80px auto;">
+                                <div class="w-100 center justify-content-center" style="height: 50px;">
+                                    <h1 class="Texth1">What do I like to do in my free time?</h1>
                                 </div>
-                                <div class="DescriptionDiv container">
-                                    <p class="textdiv text-center">
-                                        An Event Manager built with .NET Core. It features Microsoft Identity and JWT tokens for user roles and authorization. Currently, I'm integrating SignalR for a real-time comments section.
+                                <div class="w-100 center justify-content-center" style="height: 200px;">
+                                    <iframe
+                                        src="https://lottie.host/embed/1949f2e1-1ea9-43f2-8ec4-245b9501d24c/aSdHn7oNjh.lottie"
+                                        style="width: 100%; height: 100%;"></iframe>
+                                </div>
+                                <div id="SpareTimeDiv" class="freeTimeDiv mt-4">
+                                    <p class="mt-4">
+                                        In my free time, I enjoy a variety of activities. I like climbing with my
+                                        friends, especially bouldering. I train a lot, including running and lifting
+                                        weights. Cooking is another passion of mine, I could spend hours on a recipe
+                                        because I find it fun and rewarding. I also enjoy extreme sports, influenced by
+                                        my background in motocross competitions.
+                                    </p>
+                                    <p class="mt-4">
+                                        During the summers, I like to embark on extreme adventures with my best friend.
+                                        These adventures include hiking in the northern mountains, fishing, and sleeping
+                                        next to a campfire. We've also paddled a double kayak for 140 km over three
+                                        days, which was a challenging and memorable experience.
                                     </p>
                                 </div>
-                                <div class="TagDiv container d-flex justify-content-center flex-wrap" style="padding: 5px;">
-                                    <div class="Tag1 Tag mx-2">.NET8</div>
-                                    <div class="Tag2 Tag mx-2">MySQL</div>
-                                    <div class="Tag3 Tag mx-2">Entity framework</div>
-                                    <div class="Tag4 Tag mx-2">MediatR</div>
-                                    <div class="Tag5 Tag mx-2">JWT</div>
-                                    <div class="Tag6 Tag mx-2">SignalR</div>
-                                    <div class="Tag7 Tag mx-2">Microsoft identity</div>
-                                    <div class="Tag8 Tag mx-2">AutoMapper</div>
-                                    <div class="Tag9 Tag mx-2">Clean architecture</div>
+                            </section>
+
+                            <section id="ThirdSection" class=" d-flex flex-column align-items-center"
+                                style="width: 60%; margin: 0 auto 80px auto;">
+                                <div class="tech stack mt-4">
+                                    <h1 class="Texth1">
+                                        My tech stack
+                                    </h1>
                                 </div>
-                            </a>
-                        </section>
-                </div>
-            </div>
+                                <div class="LogoDiv justify-content-center mt-4">
+                                    <div class="techstack mx-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48"
+                                            viewBox="0 0 48 48">
+                                            <title>MySql</title>
+                                            <path fill="#00796b"
+                                                d="M0.002,35.041h1.92v-7.085l2.667,6.057c0.329,0.755,0.779,1.022,1.662,1.022 s1.315-0.267,1.644-1.022l2.667-5.902v6.93h1.92v-7.258c0-0.697-0.277-1.035-0.849-1.209c-1.367-0.43-2.285-0.059-2.7,0.872 l-2.735,6.16l-2.649-6.16c-0.398-0.93-1.332-1.302-2.7-0.872C0.277,26.748,0,27.085,0,27.782v7.258H0.002z">
+                                            </path>
+                                            <path fill="#00796b"
+                                                d="M13.441,29.281h1.92v4.055c-0.015,0.2,0.064,0.731,0.99,0.745c0.472,0.008,2.821,0,2.85,0v-4.8h1.92 c0.008,0,0,5.968,0,5.993c0.01,1.472-1.828,1.662-2.673,1.687h-5.006v-0.96c0.01,0,4.787,0.001,4.801,0 c1.088-0.115,0.959-0.714,0.959-0.896v-0.064H16.19c-1.67-0.015-2.735-0.751-2.747-1.59C13.441,33.373,13.479,29.317,13.441,29.281 z">
+                                            </path>
+                                            <path fill="#f57f17"
+                                                d="M22.081,35.041h4.807c0.63,0,1.242-0.132,1.728-0.36c0.81-0.372,1.144-0.875,1.144-1.536v-1.368 c0-1.476-1.83-1.536-2.88-1.536h-1.92c-0.755,0-0.87-0.456-0.96-0.96v-0.96c0.09-0.384,0.258-0.9,0.923-0.96 c0.773,0,4.836,0,4.836,0v-0.96h-4.566c-0.755,0-3.114,0.09-3.114,1.92v1.187c0,0.84,0.738,1.524,2.34,1.692 c0.18,0.012,0.36,0.024,0.539,0.024c0,0,1.866-0.036,1.92-0.024c1.08,0,0.96,0.84,0.96,0.96v0.96c0,0.132-0.03,0.96-0.971,0.96 c-0.072,0-4.789,0-4.789,0V35.041z">
+                                            </path>
+                                            <path fill="#f57f17"
+                                                d="M40.32,33.08c0,1.159,0.655,1.809,2.392,1.939c0.162,0.011,0.325,0.021,0.488,0.021H48v-0.96h-4.435 c-0.991,0-1.325-0.416-1.325-1.011v-6.669h-1.92V33.08z">
+                                            </path>
+                                            <path fill="#f57f17"
+                                                d="M30.704,33.121v-4.8c0-1.02,0.5-1.724,1.916-1.92h0.672h3.447h0.525 c1.416,0.196,2.08,0.899,2.08,1.92v4.782c0,0.827-0.215,1.271-0.916,1.559L39.916,36h-2.16l-1.07-0.96h-1.257l-2.136,0.012 c-0.309,0-0.635-0.043-0.993-0.141C31.226,34.618,30.704,34.054,30.704,33.121z M32.624,33.121c0.098,0.467,0.473,0.96,1.14,0.96 h1.864l-1.068-0.96h2.175l0.519,0.482c0,0,0.186-0.152,0.186-0.482c0-0.33-0.016-4.8-0.016-4.8c-0.098-0.434-0.538-0.96-1.188-0.96 h-2.471c-0.749,0-1.14,0.548-1.14,1.058L32.624,33.121L32.624,33.121z">
+                                            </path>
+                                            <path fill="#00796b"
+                                                d="M46.199,25.389c-1.031-0.028-1.818,0.068-2.491,0.351c-0.191,0.081-0.496,0.083-0.528,0.323 c0.105,0.11,0.121,0.275,0.205,0.41c0.16,0.26,0.432,0.609,0.674,0.791c0.265,0.2,0.538,0.414,0.821,0.587 c0.504,0.307,1.067,0.483,1.553,0.791c0.286,0.181,0.57,0.411,0.85,0.615c0.138,0.102,0.23,0.259,0.41,0.323 c0-0.01,0-0.019,0-0.029c-0.094-0.12-0.119-0.285-0.205-0.411c-0.127-0.127-0.254-0.254-0.381-0.381 c-0.372-0.494-0.846-0.929-1.348-1.289c-0.401-0.288-1.298-0.677-1.466-1.143c-0.01-0.01-0.019-0.019-0.03-0.03 c0.284-0.032,0.617-0.135,0.879-0.205c0.441-0.118,0.834-0.087,1.289-0.205c0.205-0.059,0.41-0.117,0.615-0.176 c0-0.039,0-0.078,0-0.117c-0.23-0.236-0.395-0.548-0.645-0.762c-0.657-0.559-1.373-1.117-2.11-1.583 c-0.409-0.258-0.915-0.426-1.348-0.645c-0.146-0.074-0.402-0.112-0.498-0.234c-0.228-0.29-0.351-0.659-0.527-0.996 c-0.368-0.708-0.73-1.482-1.055-2.227c-0.223-0.508-0.368-1.01-0.645-1.466c-1.331-2.188-2.764-3.509-4.982-4.807 c-0.472-0.276-1.041-0.385-1.642-0.528c-0.323-0.019-0.645-0.039-0.968-0.059c-0.197-0.083-0.401-0.323-0.587-0.44 c-0.735-0.465-2.621-1.475-3.165-0.147c-0.344,0.838,0.514,1.656,0.821,2.081c0.215,0.298,0.491,0.632,0.645,0.968 c0.101,0.22,0.119,0.441,0.205,0.674c0.213,0.574,0.55,1.228,0.826,1.759c0.139,0.269,0.293,0.551,0.469,0.791 c0.108,0.147,0.293,0.212,0.323,0.44c-0.181,0.253-0.191,0.646-0.293,0.968c-0.458,1.445-0.285,3.24,0.381,4.308 c0.204,0.328,0.686,1.032,1.348,0.762c0.579-0.236,0.45-0.967,0.615-1.612c0.037-0.146,0.014-0.253,0.088-0.351 c0,0.01,0,0.019,0,0.03c0.176,0.351,0.351,0.704,0.528,1.055c0.391,0.629,1.084,1.286,1.67,1.73 c0.304,0.23,0.544,0.628,0.938,0.762c0-0.01,0-0.019,0-0.03c-0.01,0-0.019,0-0.03,0c-0.076-0.119-0.196-0.168-0.293-0.264 c-0.229-0.225-0.485-0.504-0.674-0.762c-0.534-0.725-1.006-1.519-1.436-2.345c-0.205-0.395-0.384-0.829-0.557-1.231 c-0.067-0.155-0.066-0.389-0.205-0.469c-0.19,0.294-0.468,0.532-0.615,0.879c-0.234,0.555-0.265,1.233-0.351,1.934 c-0.052,0.018-0.029,0.006-0.059,0.029c-0.408-0.099-0.552-0.518-0.704-0.879c-0.384-0.912-0.455-2.38-0.117-3.429 c0.087-0.272,0.482-1.127,0.323-1.378c-0.076-0.251-0.328-0.396-0.468-0.587c-0.175-0.236-0.348-0.548-0.469-0.821 c-0.314-0.711-0.612-1.538-0.943-2.257c-0.158-0.344-0.425-0.691-0.645-0.996c-0.243-0.338-0.516-0.587-0.704-0.996 c-0.067-0.145-0.158-0.378-0.059-0.528c0.032-0.101,0.076-0.143,0.176-0.176c0.17-0.132,0.643,0.043,0.821,0.117 c0.47,0.195,0.862,0.381,1.26,0.645c0.191,0.127,0.384,0.372,0.615,0.44c0.088,0,0.176,0,0.264,0 c0.413,0.095,0.875,0.03,1.26,0.147c0.682,0.207,1.292,0.529,1.846,0.879c1.69,1.067,3.071,2.585,4.016,4.397 c0.152,0.292,0.218,0.57,0.351,0.879c0.27,0.624,0.611,1.266,0.879,1.876c0.268,0.609,0.53,1.223,0.909,1.73 c0.2,0.266,0.97,0.409,1.319,0.557c0.245,0.104,0.647,0.211,0.879,0.351c0.444,0.268,0.874,0.587,1.289,0.879 C45.528,24.803,46.167,25.124,46.199,25.389z">
+                                            </path>
+                                            <path fill="#00796b"
+                                                d="M33.098,14.223c-0.215-0.004-0.367,0.023-0.528,0.059c0,0.01,0,0.019,0,0.03c0.01,0,0.019,0,0.03,0 c0.103,0.21,0.283,0.347,0.41,0.528c0.098,0.205,0.195,0.41,0.293,0.615c0.01-0.01,0.019-0.019,0.029-0.029 c0.181-0.128,0.265-0.332,0.264-0.645c-0.073-0.077-0.084-0.173-0.147-0.264C33.365,14.394,33.203,14.325,33.098,14.223z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="techstack mx-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="48px"
+                                            height="48px" baseProfile="basic">
+                                            <linearGradient id="dFMIpH0DLBLP_Mye2ctJMa" x1="15.25" x2="15.25"
+                                                y1="31.296" y2="15.385" gradientTransform="matrix(1 0 0 -1 0 64)"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop offset="0" stop-color="#8ab4ff" />
+                                                <stop offset=".699" stop-color="#e492ff" />
+                                            </linearGradient>
+                                            <path fill="url(#dFMIpH0DLBLP_Mye2ctJMa)"
+                                                d="M19.09,39.37c0,0.01,0.01,0.01,0.01,0.02l-7.7,4.5L19.09,39.37z" />
+                                            <linearGradient id="dFMIpH0DLBLP_Mye2ctJMb" x1="15.25" x2="15.25"
+                                                y1="33.329" y2="20.11" gradientTransform="matrix(1 0 0 -1 0 64)"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop offset="0" stop-color="#8ab4ff" />
+                                                <stop offset=".699" stop-color="#e492ff" />
+                                            </linearGradient>
+                                            <path fill="url(#dFMIpH0DLBLP_Mye2ctJMb)"
+                                                d="M19.09,39.37c0,0.01,0.01,0.01,0.01,0.02	l-7.7,4.5L19.09,39.37z" />
+                                            <linearGradient id="dFMIpH0DLBLP_Mye2ctJMc" x1="31.87" x2="31.87" y1="10.7"
+                                                y2="35.152" gradientUnits="userSpaceOnUse">
+                                                <stop offset="0" stop-color="#8ab4ff" />
+                                                <stop offset="1" stop-color="#e492ff" />
+                                            </linearGradient>
+                                            <path fill="url(#dFMIpH0DLBLP_Mye2ctJMc)"
+                                                d="M32,8.21l-20.6,11.9v23.78l7.69-4.52	c-1.18-2.17-1.85-4.65-1.85-7.3c0-2.88,0.8-5.56,2.18-7.87c2.68-4.46,7.57-7.46,13.15-7.46c5.27,0,10.11,2.67,12.94,7.12l-0.39,0.24	l-6.57,3.87c-1.35-1.99-3.57-3.16-5.98-3.16c-2.62,0-4.91,1.39-6.19,3.47c-0.68,1.11-1.07,2.4-1.07,3.79c0,1.16,0.27,2.25,0.75,3.22	l6.13-3.6h0.01l0.04,0.02l20.1-11.75L32,8.21z" />
+                                            <linearGradient id="dFMIpH0DLBLP_Mye2ctJMd" x1="32" x2="32" y1="8.058"
+                                                y2="57.784" gradientUnits="userSpaceOnUse">
+                                                <stop offset="0" stop-color="#1a6dff" />
+                                                <stop offset="1" stop-color="#c822ff" />
+                                            </linearGradient>
+                                            <path fill="url(#dFMIpH0DLBLP_Mye2ctJMd)"
+                                                d="M32.24,31.71l-6.17,3.6	c1.19,2.38,3.66,4.02,6.5,4.02c2.382,0,4.553-1.156,5.911-3.063l7.076,3.931C42.76,44.666,37.897,47.4,32.57,47.4	c-5.8,0-10.87-3.24-13.47-8.01l-7.7,4.5L32,55.79l20.6-11.9v-0.22V20.11l-0.26-0.15L32.24,31.71z M51,31h-2v2h2v2h-2v2h-2v-2h-2v2	h-2v-2h-2v-2h2v-2h-2v-2h2v-2h2v2h2v-2h2v2h2V31z M45,31h2v2h-2V31z M55.1,16.93L33.5,4.46c-0.93-0.53-2.07-0.53-3,0L8.9,16.93	c-0.92,0.54-1.5,1.53-1.5,2.6v24.94c0,1.07,0.58,2.06,1.5,2.6l21.6,12.47c0.93,0.53,2.07,0.53,3,0l21.6-12.47	c0.92-0.54,1.5-1.53,1.5-2.6V19.53C56.6,18.46,56.02,17.47,55.1,16.93z M54.6,44.47c0,0.36-0.19,0.69-0.5,0.87L32.5,57.81	c-0.31,0.17-0.69,0.17-1,0L9.9,45.34c-0.31-0.18-0.5-0.51-0.5-0.87V19.53c0-0.36,0.19-0.69,0.5-0.87L31.5,6.19	c0.31-0.17,0.69-0.17,1,0l21.6,12.47c0.31,0.18,0.5,0.51,0.5,0.87V44.47z" />
+                                            <title>C#</title>
+                                        </svg>
+                                    </div>
+                                    <div class="techstack mx-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48"
+                                            viewBox="0 0 48 48">
+                                            <path fill="#6a1b9a"
+                                                d="M44,24c0,5.694-2.381,10.831-6.2,14.481l-0.006,0.006C34.2,41.9,29.344,44,24,44 C12.956,44,4,35.044,4,24c0-5.338,2.087-10.188,5.5-13.775c0.006-0.013,0.013-0.019,0.019-0.025C13.169,6.381,18.306,4,24,4 C35.044,4,44,12.956,44,24z">
+                                            </path>
+                                            <path fill="#7b1fa2"
+                                                d="M38.375,37.862c-0.187,0.213-0.381,0.419-0.575,0.619l-0.006,0.006C34.2,41.9,29.344,44,24,44 C12.956,44,4,35.044,4,24c0-5.338,2.087-10.188,5.5-13.775c0.006-0.013,0.013-0.019,0.019-0.025c0.2-0.194,0.406-0.387,0.619-0.575 L38.375,37.862z">
+                                            </path>
+                                            <path fill="#fff"
+                                                d="M8.626,27.281c-0.236,0.004-0.463-0.091-0.625-0.262c-0.167-0.165-0.259-0.39-0.256-0.625 c-0.002-0.234,0.091-0.459,0.256-0.625c0.161-0.174,0.388-0.272,0.625-0.269c0.237-0.001,0.463,0.097,0.625,0.269 c0.169,0.164,0.263,0.39,0.262,0.625c0.002,0.236-0.093,0.462-0.262,0.625C9.087,27.188,8.861,27.283,8.626,27.281z">
+                                            </path>
+                                            <path fill="#fff"
+                                                d="M21.044,27.125h-1.638l-5.856-9.087c-0.146-0.224-0.267-0.463-0.363-0.712h-0.05 c0.056,0.519,0.077,1.041,0.062,1.562v8.237h-1.331V15.731h1.731l5.7,8.925c0.237,0.371,0.392,0.625,0.462,0.763h0.031 c-0.066-0.556-0.093-1.115-0.081-1.675v-8.012h1.331V27.125z">
+                                            </path>
+                                            <path fill="#fff"
+                                                d="M30.057,27.125h-6.056V15.731h5.775v1.206h-4.412v3.788h4.113v1.2h-4.113v3.95h4.7L30.057,27.125z">
+                                            </path>
+                                            <path fill="#fff"
+                                                d="M39.001,16.938h-3.312v10.188h-1.331V16.938h-3.275v-1.206h7.919V16.938z">
+                                            </path>
+                                            <path fill="#f2f2f2"
+                                                d="M20.326,34.875c-0.451,0.219-0.949,0.324-1.45,0.306c-0.674,0.03-1.327-0.232-1.794-0.719 c-0.459-0.514-0.701-1.186-0.675-1.875c-0.034-0.754,0.239-1.489,0.756-2.038c0.505-0.517,1.203-0.798,1.925-0.775 c0.427-0.015,0.853,0.06,1.25,0.219v0.625c-0.382-0.212-0.813-0.319-1.25-0.312c-0.557-0.016-1.094,0.213-1.469,0.625 c-0.39,0.444-0.592,1.022-0.562,1.612c-0.029,0.559,0.159,1.108,0.525,1.531c0.355,0.382,0.86,0.59,1.381,0.569 c0.48,0.013,0.954-0.109,1.369-0.35L20.326,34.875z">
+                                            </path>
+                                            <path fill="#f2f2f2"
+                                                d="M22.882,35.181c-0.503,0.016-0.989-0.187-1.331-0.556c-0.342-0.381-0.519-0.882-0.494-1.394 c-0.032-0.541,0.155-1.073,0.519-1.475c0.371-0.362,0.876-0.555,1.394-0.531c0.49-0.026,0.967,0.163,1.306,0.519 c0.332,0.4,0.5,0.912,0.469,1.431c0.026,0.527-0.156,1.043-0.506,1.438C23.89,34.989,23.395,35.197,22.882,35.181z M22.926,31.762 c-0.348-0.015-0.684,0.13-0.912,0.394c-0.24,0.31-0.36,0.696-0.338,1.088c-0.022,0.38,0.098,0.754,0.338,1.05 c0.231,0.26,0.566,0.402,0.912,0.388c0.34,0.02,0.67-0.118,0.894-0.375c0.227-0.31,0.338-0.691,0.312-1.075 c0.025-0.386-0.086-0.768-0.312-1.081C23.599,31.888,23.268,31.745,22.926,31.762z">
+                                            </path>
+                                            <path fill="#f2f2f2"
+                                                d="M27.663,31.95c-0.135-0.088-0.295-0.13-0.456-0.119c-0.256,0.009-0.49,0.145-0.625,0.363 c-0.186,0.295-0.276,0.64-0.256,0.988v1.912h-0.625v-3.75h0.625v0.781l0,0c0.069-0.242,0.205-0.459,0.394-0.625 c0.163-0.141,0.372-0.219,0.587-0.219c0.121-0.005,0.242,0.012,0.356,0.05V31.95z">
+                                            </path>
+                                            <path fill="#f2f2f2"
+                                                d="M31.326,33.375h-2.644c-0.018,0.349,0.096,0.693,0.319,0.963c0.234,0.234,0.557,0.356,0.887,0.338 c0.424-0.004,0.833-0.152,1.163-0.419v0.562c-0.386,0.255-0.844,0.38-1.306,0.356c-0.472,0.024-0.93-0.164-1.25-0.513 c-0.325-0.406-0.488-0.918-0.456-1.438c-0.022-0.52,0.154-1.03,0.494-1.425c0.313-0.362,0.772-0.564,1.25-0.55 c0.432-0.024,0.851,0.151,1.138,0.475c0.288,0.379,0.43,0.85,0.4,1.325L31.326,33.375z M30.701,32.869 c0.013-0.29-0.076-0.575-0.25-0.806c-0.173-0.196-0.426-0.302-0.688-0.288c-0.272-0.003-0.533,0.108-0.719,0.306 c-0.206,0.218-0.335,0.496-0.369,0.794L30.701,32.869z">
+                                            </path>
+                                            <title>.NET Core</title>
+                                        </svg>
+                                    </div>
+                                    <div class="techstack mx-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48"
+                                            viewBox="0 0 48 48">
+                                            <path fill="#ffd600" d="M6,42V6h36v36H6z"></path>
+                                            <path fill="#000001"
+                                                d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z">
+                                            </path>
+                                            <title>JavaScript</title>
+                                        </svg>
+                                    </div>
+                                    <div class="techstack mx-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48"
+                                            viewBox="0 0 48 48">
+                                            <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
+                                            <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
+                                            <path fill="#FFF"
+                                                d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z">
+                                            </path>
+                                            <path fill="#EEE"
+                                                d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z">
+                                            </path>
+                                            <title>HTML</title>
+                                        </svg>
+                                    </div>
+                                    <div class="techstack mx-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48"
+                                            viewBox="0 0 48 48">
+                                            <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
+                                            <path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
+                                            <path fill="#FFF"
+                                                d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z">
+                                            </path>
+                                            <path fill="#EEE"
+                                                d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z">
+                                            </path>
+                                            <title>CSS</title>
+                                        </svg>
+                                    </div>
+                                    <div class="techstack mx-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48"
+                                            viewBox="0 0 48 48">
+                                            <path fill="#5d4037"
+                                                d="M42,17.3C42,37.8,24,44,24,44S6,37.8,6,17.3c0-2.5,0.2-4.6,0.4-6.3c0.3-2.5,2-4.5,4.4-5.1 C13.9,5,18.8,4,24,4s10.1,1,13.3,1.9c2.4,0.6,4.1,2.7,4.4,5.1C41.8,12.7,42,14.9,42,17.3z">
+                                            </path>
+                                            <path fill="#4caf50"
+                                                d="M24,7c4.9,0,9.5,1,12.5,1.8c1.2,0.3,2,1.3,2.2,2.6c0.2,1.9,0.3,3.9,0.3,5.9c0,15.6-11.5,21.9-15,23.4 c-3.5-1.6-15-7.9-15-23.4c0-2,0.1-4,0.3-5.9c0.1-1.3,1-2.3,2.2-2.6C14.5,8,19.1,7,24,7 M24,4c-5.2,0-10.1,1-13.3,1.9 C8.4,6.5,6.6,8.6,6.4,11C6.2,12.7,6,14.9,6,17.3C6,37.8,24,44,24,44s18-6.2,18-26.7c0-2.5-0.2-4.6-0.4-6.3c-0.3-2.5-2-4.5-4.4-5.1 C34.1,5,29.2,4,24,4L24,4z">
+                                            </path>
+                                            <path fill="#dcedc8" d="M23 28H25V36H23z"></path>
+                                            <path fill="#4caf50"
+                                                d="M24,10c0,0-6,5-6,13c0,5.2,3.3,8.5,5,10l1-3l1,3c1.7-1.5,5-4.8,5-10C30,15,24,10,24,10z">
+                                            </path>
+                                            <path fill="#81c784" d="M24,10c0,0-6,5-6,13c0,5.2,3.3,8.5,5,10l1-3V10z">
+                                            </path>
+                                            <title>MongoDb</title>
+                                        </svg>
+                                    </div>
+                                    <div class="techstack m-21">
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48"
+                                            viewBox="0 0 48 48">
+                                            <linearGradient id="k8yl7~hDat~FaoWq8WjN6a_VLKafOkk3sBX_gr1" x1="-1254.397"
+                                                x2="-1261.911" y1="877.268" y2="899.466"
+                                                gradientTransform="translate(1981.75 -1362.063) scale(1.5625)"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop offset="0" stop-color="#114a8b"></stop>
+                                                <stop offset="1" stop-color="#0669bc"></stop>
+                                            </linearGradient>
+                                            <path fill="url(#k8yl7~hDat~FaoWq8WjN6a_VLKafOkk3sBX_gr1)"
+                                                d="M17.634,6h11.305L17.203,40.773c-0.247,0.733-0.934,1.226-1.708,1.226H6.697 c-0.994,0-1.8-0.806-1.8-1.8c0-0.196,0.032-0.39,0.094-0.576L15.926,7.227C16.173,6.494,16.86,6,17.634,6L17.634,6z">
+                                            </path>
+                                            <path fill="#0078d4"
+                                                d="M34.062,29.324H16.135c-0.458-0.001-0.83,0.371-0.831,0.829c0,0.231,0.095,0.451,0.264,0.608 l11.52,10.752C27.423,41.826,27.865,42,28.324,42h10.151L34.062,29.324z">
+                                            </path>
+                                            <linearGradient id="k8yl7~hDat~FaoWq8WjN6b_VLKafOkk3sBX_gr2" x1="-1252.05"
+                                                x2="-1253.788" y1="887.612" y2="888.2"
+                                                gradientTransform="translate(1981.75 -1362.063) scale(1.5625)"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop offset="0" stop-opacity=".3"></stop>
+                                                <stop offset=".071" stop-opacity=".2"></stop>
+                                                <stop offset=".321" stop-opacity=".1"></stop>
+                                                <stop offset=".623" stop-opacity=".05"></stop>
+                                                <stop offset="1" stop-opacity="0"></stop>
+                                            </linearGradient>
+                                            <path fill="url(#k8yl7~hDat~FaoWq8WjN6b_VLKafOkk3sBX_gr2)"
+                                                d="M17.634,6c-0.783-0.003-1.476,0.504-1.712,1.25L5.005,39.595 c-0.335,0.934,0.151,1.964,1.085,2.299C6.286,41.964,6.493,42,6.702,42h9.026c0.684-0.122,1.25-0.603,1.481-1.259l2.177-6.416 l7.776,7.253c0.326,0.27,0.735,0.419,1.158,0.422h10.114l-4.436-12.676l-12.931,0.003L28.98,6H17.634z">
+                                            </path>
+                                            <linearGradient id="k8yl7~hDat~FaoWq8WjN6c_VLKafOkk3sBX_gr3" x1="-1252.952"
+                                                x2="-1244.704" y1="876.6" y2="898.575"
+                                                gradientTransform="translate(1981.75 -1362.063) scale(1.5625)"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop offset="0" stop-color="#3ccbf4"></stop>
+                                                <stop offset="1" stop-color="#2892df"></stop>
+                                            </linearGradient>
+                                            <path fill="url(#k8yl7~hDat~FaoWq8WjN6c_VLKafOkk3sBX_gr3)"
+                                                d="M32.074,7.225C31.827,6.493,31.141,6,30.368,6h-12.6c0.772,0,1.459,0.493,1.705,1.224 l10.935,32.399c0.318,0.942-0.188,1.963-1.13,2.281C29.093,41.968,28.899,42,28.703,42h12.6c0.994,0,1.8-0.806,1.8-1.801 c0-0.196-0.032-0.39-0.095-0.575L32.074,7.225z">
+                                            </path>
+                                            <title>Azure</title>
+                                        </svg>
+                                    </div>
+                                    <div class="techstack m-21">
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48"
+                                            viewBox="0 0 48 48">
+                                            <path fill="#F4511E"
+                                                d="M42.2,22.1L25.9,5.8C25.4,5.3,24.7,5,24,5c0,0,0,0,0,0c-0.7,0-1.4,0.3-1.9,0.8l-3.5,3.5l4.1,4.1c0.4-0.2,0.8-0.3,1.3-0.3c1.7,0,3,1.3,3,3c0,0.5-0.1,0.9-0.3,1.3l4,4c0.4-0.2,0.8-0.3,1.3-0.3c1.7,0,3,1.3,3,3s-1.3,3-3,3c-1.7,0-3-1.3-3-3c0-0.5,0.1-0.9,0.3-1.3l-4-4c-0.1,0-0.2,0.1-0.3,0.1v10.4c1.2,0.4,2,1.5,2,2.8c0,1.7-1.3,3-3,3s-3-1.3-3-3c0-1.3,0.8-2.4,2-2.8V18.8c-1.2-0.4-2-1.5-2-2.8c0-0.5,0.1-0.9,0.3-1.3l-4.1-4.1L5.8,22.1C5.3,22.6,5,23.3,5,24c0,0.7,0.3,1.4,0.8,1.9l16.3,16.3c0,0,0,0,0,0c0.5,0.5,1.2,0.8,1.9,0.8s1.4-0.3,1.9-0.8l16.3-16.3c0.5-0.5,0.8-1.2,0.8-1.9C43,23.3,42.7,22.6,42.2,22.1z">
+                                            </path>
+                                            <title>Git</title>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div id="PortfolioContent" style="display: none;">
+                            <section id="portfolioSection" class="d-flex flex-column align-items-center"
+                                style="width: 55%; margin: 0 auto 80px auto;">
+                                <h1 class="titleH1" style="color: black;">
+                                    <span class="firstRow">I'm a Curious</span>
+                                    <span class="secondRow"><span class="Tag1 Tag">.NET</span> Developer</span>
+                                  </h1>
+                                <div class="w-100 center justify-content-center" style="height: 300px;">
+                                    <iframe
+                                        src="https://lottie.host/embed/59db98d4-b2fb-4bce-adcc-9681a3085d28/gAMxpeutmX.lottie"
+                                        style="width: 100%; height: 100%;"></iframe>
+                                </div>
+                                <div class="mt-4">
+
+                                    <p class="mt-4">
+                                        I'am a curios .Net developer with a future in fullstack development. As a
+                                        developer Ive heard that I learn quick and have a good understanding of the code
+                                        i write and the code others have done before, for refactoring.
+                                    </p>
+
+                                    <p class="mt-4">
+                                        I have solid experience working with MySQL/NoSQL and .NET Core for developing
+                                        efficient and scalable applications. I'm also proficient in JavaScript,HTML and
+                                        CSS, allowing me to create responsive and user-friendly web interfaces.
+                                    </p>
+                                    <p class="mt-4">
+                                        I have worked alot with Clean Architecture and have some hands on experience
+                                        microservices, which I apply to build well-structured, maintainable, and
+                                        scalable software solutions. Additionally, I have hands-on experience with Azure
+                                        Service Bus, Azure DevOps, and the Azure Portal, enabling me to manage
+                                        cloud-based applications and streamline deployment processes. This website is
+                                        deployed using github actions and hosted on Azure.
+                                    </p>
+                                    <p class="mt-4">
+                                        I'm always looking to improve my skills and stay up to date with modern
+                                        development practices, for example scrum master experience, I would also like to
+                                        improve with websockets and backround services in larger programs. But as Im at
+                                        the start of my career I'm open to all new experiences and challenges.
+                                    </p>
+                                </div>
+                            </section>
+                            <section>
+                                <div id="portfolioSection" class="container mt-4 BiggerProjectsDiv"
+                                    style="width: 55%; margin: 0 auto 80px auto;">
+                                    <h1 class=" text-center titleH1" style="color: black; font-size: 40px;">Bigger
+                                        projects</h1>
+                                    <p class="mt-4 introProjectDiv text-center">
+                                        I've worked on several projects that have helped me develop my skills and gain
+                                        experience in building robust and scalable applications. Here are some of the
+                                        projects.
+                                    </p>
+
+                                    <div class="mt-4">
+                                        <h3 class="text-center titleH1"
+                                            style="color: black; display: flex; align-items: center; justify-content: center;">
+                                            BoostApp
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="40"
+                                                height="40" viewBox="0 0 256 256" xml:space="preserve"
+                                                style="margin-left: 10px;">
+                                                <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                                                    transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                                    <circle cx="45" cy="45" r="45"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,169,174); fill-rule: nonzero; opacity: 1;"
+                                                        transform="  matrix(1 0 0 1 0 0) " />
+                                                    <path
+                                                        d="M 79.556 45.366 l 1.48 -0.006 c 1.402 0 2.544 -1.141 2.544 -2.544 v -2.456 h 0.479 c 1.403 0 2.545 -1.141 2.545 -2.544 v -2.674 c 0 -1.403 -1.142 -2.544 -2.545 -2.544 H 83.58 v -2.456 c 0 -1.403 -1.142 -2.544 -2.544 -2.544 h -1.48 v -0.902 c 0 -1.403 -1.142 -2.544 -2.544 -2.544 h -3.59 c -1.402 0 -2.544 1.141 -2.544 2.544 v 6.566 h -0.199 c -0.816 -0.758 -1.89 -1.188 -3.036 -1.188 h -1.37 c -1.146 0 -2.22 0.431 -3.036 1.188 H 26.764 c -0.816 -0.758 -1.89 -1.188 -3.036 -1.188 h -1.371 c -1.147 0 -2.22 0.43 -3.037 1.188 h -0.198 v -6.566 c 0 -1.403 -1.142 -2.544 -2.544 -2.544 h -3.589 c -1.403 0 -2.544 1.141 -2.544 2.544 v 0.902 h -1.48 c -1.403 0 -2.544 1.141 -2.544 2.544 v 2.456 H 5.94 c -1.403 0 -2.544 1.141 -2.544 2.544 v 2.674 c 0 1.403 1.141 2.544 2.544 2.544 h 0.48 v 2.456 c 0 1.403 1.141 2.544 2.544 2.544 h 1.48 v 0.006 c 0 1.403 1.141 2.544 2.544 2.544 h 3.589 c 0.043 0 0.086 -0.001 0.129 -0.003 c -0.941 3.577 -1.742 7.138 -1.742 10.234 c 0 0.348 0.091 0.69 0.264 0.992 c 2.649 4.637 5.458 7.81 8.513 9.652 c 0.025 0.017 0.064 0.041 0.091 0.058 c 0.326 0.195 0.657 0.379 0.951 0.525 c 0.02 0.012 0.042 0.022 0.064 0.033 c 0.038 0.021 0.079 0.042 0.096 0.051 c 0.064 0.033 0.13 0.063 0.212 0.1 c 0.18 0.084 0.359 0.167 0.512 0.231 c 0.057 0.024 0.114 0.047 0.157 0.063 c 0.009 0.004 0.018 0.007 0.027 0.011 c 0.025 0.011 0.066 0.028 0.083 0.035 c 0.141 0.056 0.282 0.11 0.464 0.175 c 0.185 0.066 0.373 0.125 0.558 0.183 l 0.279 0.088 c 0.009 0.003 0.017 0.006 0.026 0.008 c 0.041 0.014 0.059 0.02 0.104 0.029 c 0.013 0.003 0.027 0.007 0.041 0.01 c 0.052 0.014 0.104 0.025 0.144 0.033 c 0.051 0.013 0.103 0.025 0.154 0.038 c 0.092 0.297 0.186 0.581 0.282 0.853 l 0.043 0.119 c 0.105 0.29 0.214 0.57 0.311 0.802 c 0.006 0.015 0.034 0.083 0.04 0.098 c 0.092 0.219 0.188 0.432 0.276 0.62 c 0.004 0.01 0.042 0.09 0.047 0.099 c 0.08 0.168 0.16 0.333 0.229 0.463 c 0.01 0.021 0.021 0.042 0.032 0.063 l 0.05 0.091 c 0.014 0.027 0.029 0.055 0.044 0.082 c 0.087 0.162 0.176 0.323 0.27 0.483 c 0.002 0.004 0.056 0.09 0.058 0.094 c 0.178 0.298 0.364 0.584 0.572 0.884 c 0.369 0.527 0.771 1.031 1.268 1.584 c 0.209 0.23 0.425 0.458 0.606 0.639 c 0.023 0.025 0.047 0.051 0.071 0.075 c 0.515 0.516 1.062 1.013 1.549 1.442 c -0.02 2.693 0.027 6.29 0.191 9.607 C 37.27 89.495 41.076 90 45 90 c 3.995 0 7.866 -0.527 11.553 -1.504 c 0.131 -2.682 0.202 -5.78 0.193 -8.874 c -0.001 -0.23 -0.002 -0.457 -0.004 -0.679 c 2.604 -2.295 4.493 -4.387 5.75 -8.488 c 0.022 -0.006 0.044 -0.011 0.064 -0.017 l 0.4 -0.107 l 0.119 -0.034 l 0.245 -0.074 c 0.13 -0.04 0.26 -0.08 0.439 -0.142 c 0.215 -0.076 0.428 -0.158 0.612 -0.235 c 0.021 -0.009 0.104 -0.042 0.125 -0.051 c 0.269 -0.113 0.533 -0.239 0.795 -0.369 c 0.025 -0.012 0.05 -0.023 0.075 -0.036 c 0.273 -0.139 0.544 -0.285 0.782 -0.425 l 0.225 -0.132 c 3.129 -1.89 5.938 -5.063 8.588 -9.7 c 0.173 -0.302 0.264 -0.645 0.264 -0.992 c 0 -3.096 -0.801 -6.655 -1.741 -10.231 h 3.526 C 78.414 47.91 79.556 46.769 79.556 45.366 z M 38.951 42.401 c -1.337 0.632 -2.316 1.701 -2.791 3.066 c -0.542 1.557 -0.378 3.373 0.447 5.241 c -0.485 0.492 -0.785 1.167 -0.785 1.91 v 1.188 c 0 1.016 0.343 1.977 0.93 2.752 c -0.095 -0.02 -0.191 -0.038 -0.288 -0.054 c -0.957 -0.152 -1.964 -0.098 -2.98 0.168 c -0.062 -0.073 -0.125 -0.144 -0.19 -0.213 c -0.215 -0.227 -0.467 -0.452 -0.781 -0.696 l -0.178 -0.133 c -1.45 -1.057 -3.229 -1.613 -4.957 -1.634 c 0.062 -1.79 -0.123 -4.101 -0.381 -7.013 c -0.206 -2.326 -0.418 -4.723 -0.385 -6.489 c 0.274 -0.176 0.523 -0.391 0.739 -0.636 h 15.024 C 41.055 40.354 39.867 41.178 38.951 42.401 z M 63.192 46.984 c -0.259 2.918 -0.443 5.23 -0.381 7.021 c -1.649 0.021 -3.35 0.522 -4.751 1.475 c -0.065 0.045 -0.129 0.092 -0.25 0.184 l -0.146 0.109 c -0.31 0.242 -0.555 0.461 -0.772 0.692 c -0.063 0.067 -0.126 0.137 -0.187 0.209 c -0.642 -0.165 -1.28 -0.249 -1.905 -0.249 c -0.335 0 -0.666 0.024 -0.99 0.072 c -0.122 0.019 -0.243 0.04 -0.364 0.065 c 0.59 -0.776 0.934 -1.739 0.934 -2.757 v -1.188 c 0 -0.727 -0.286 -1.388 -0.753 -1.876 c 0.79 -1.706 0.96 -3.306 0.505 -4.773 c -0.398 -1.281 -1.256 -2.389 -2.559 -3.312 c 0.081 -0.231 0.12 -0.479 0.111 -0.733 c -0.029 -0.807 -0.54 -1.517 -1.296 -1.801 c -0.252 -0.095 -0.509 -0.183 -0.77 -0.263 h 13.182 c 0.229 0.247 0.49 0.46 0.776 0.635 C 63.611 42.263 63.398 44.66 63.192 46.984 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,156,161); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <rect x="16.17" y="32.26" rx="0" ry="0" width="57.43" height="2.6"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(226,226,226); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " />
+                                                    <path
+                                                        d="M 16.578 42.91 h -3.59 c -0.3 0 -0.544 -0.244 -0.544 -0.544 v -18.67 c 0 -0.3 0.244 -0.544 0.544 -0.544 h 3.59 c 0.3 0 0.544 0.244 0.544 0.544 v 18.67 C 17.122 42.666 16.878 42.91 16.578 42.91 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 73.422 42.91 h 3.59 c 0.3 0 0.544 -0.244 0.544 -0.544 v -18.67 c 0 -0.3 -0.244 -0.544 -0.544 -0.544 h -3.59 c -0.3 0 -0.544 0.244 -0.544 0.544 v 18.67 C 72.878 42.666 73.122 42.91 73.422 42.91 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 5.94 35.359 h 2.48 v -3.762 H 5.94 c -0.3 0 -0.544 0.244 -0.544 0.544 v 2.674 C 5.396 35.116 5.64 35.359 5.94 35.359 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(226,226,226); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 84.06 35.359 h -2.48 v -3.762 h 2.48 c 0.3 0 0.544 0.244 0.544 0.544 v 2.674 C 84.604 35.116 84.36 35.359 84.06 35.359 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(226,226,226); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 8.964 40.359 H 11.9 c 0.3 0 0.544 -0.244 0.544 -0.544 V 27.142 c 0 -0.3 -0.244 -0.544 -0.544 -0.544 H 8.964 c -0.3 0 -0.544 0.244 -0.544 0.544 v 12.674 C 8.42 40.116 8.664 40.359 8.964 40.359 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(52,96,143); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 81.036 40.359 H 78.1 c -0.3 0 -0.544 -0.244 -0.544 -0.544 V 27.142 c 0 -0.3 0.244 -0.544 0.544 -0.544 h 2.936 c 0.3 0 0.544 0.244 0.544 0.544 v 12.674 C 81.58 40.116 81.336 40.359 81.036 40.359 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(52,96,143); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 68.637 33.112 l -3.406 1.785 c 1.33 3.562 -1.68 16.714 0.208 18.695 c -2.762 -1.502 -7.057 0.038 -7.884 2.522 c -2.482 -1.211 -4.82 -0.803 -6.176 0.973 c -1.122 -0.341 -2.406 -1.095 -3.233 -1.784 l -3.046 0 h -0.006 H 45.09 l -3.046 0 c -0.827 0.689 -2.112 1.443 -3.233 1.784 c -1.356 -1.776 -3.694 -2.184 -6.176 -0.973 c -0.827 -2.483 -5.121 -4.024 -7.884 -2.522 c 1.888 -1.982 -1.122 -15.134 0.208 -18.695 l -3.406 -1.785 c -0.839 6.789 -4.589 15.664 -4.589 22.029 c 2.758 4.828 6.728 9.85 12.329 10.587 c 1.217 4.828 4.678 6.751 7.656 9.312 h 8.146 h 8.146 c 2.978 -2.561 6.439 -4.484 7.656 -9.312 c 5.601 -0.738 9.57 -5.759 12.329 -10.587 C 73.226 48.776 69.476 39.902 68.637 33.112 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,204,154); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 62.897 64.84 c -0.037 0.159 -0.082 0.307 -0.122 0.461 c 0.839 -0.268 1.635 -0.635 2.394 -1.078 C 64.442 64.51 63.688 64.726 62.897 64.84 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,204,154); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 59.177 54.139 c 0.127 0.059 0.251 0.102 0.379 0.17 c 0.054 -0.177 0.124 -0.35 0.206 -0.518 C 59.558 53.899 59.362 54.014 59.177 54.139 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,204,154); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 30.294 63.84 c -5.601 -0.808 -8.57 -4.308 -11.329 -9.597 c 0 -5.621 2.436 -13.677 3.82 -20.486 l -1.232 -0.646 c -0.839 6.789 -4.589 15.664 -4.589 22.029 c 2.758 4.828 6.728 9.85 12.329 10.587 c 1.217 4.828 4.678 6.751 7.656 9.312 h 2 C 35.972 72.235 31.511 69.129 30.294 63.84 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(240,180,121); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 59.897 63.84 c 5.601 -0.808 8.57 -4.308 11.329 -9.597 c 0 -5.621 -2.436 -13.677 -3.82 -20.486 l 1.232 -0.646 c 0.839 6.789 4.589 15.664 4.589 22.029 c -2.758 4.828 -6.728 9.85 -12.329 10.587 c -1.217 4.828 -4.678 6.751 -7.656 9.312 h -2 C 54.219 72.235 58.68 69.129 59.897 63.84 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(240,180,121); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 23.728 37.049 c 0.321 0 0.625 -0.066 0.907 -0.176 c 0.02 -0.379 0.053 -0.73 0.102 -1.046 c -0.31 0.138 -0.648 0.223 -1.009 0.223 h -1.371 c -0.45 0 -0.872 -0.12 -1.236 -0.329 c -0.058 0.289 -0.124 0.583 -0.189 0.876 c 0.404 0.283 0.894 0.453 1.425 0.453 H 23.728 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(240,180,121); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 69.049 35.604 c -0.401 0.277 -0.882 0.446 -1.406 0.446 h -1.371 c -0.283 0 -0.553 -0.051 -0.806 -0.138 c 0.044 0.311 0.075 0.653 0.093 1.021 c 0.227 0.068 0.463 0.116 0.713 0.116 h 1.371 c 0.607 0 1.155 -0.226 1.587 -0.586 C 69.167 36.175 69.105 35.887 69.049 35.604 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(240,180,121); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 59.671 53.838 c -1.015 0.555 -1.807 1.35 -2.115 2.277 c -2.482 -1.211 -4.82 -0.803 -6.176 0.973 c -1.122 -0.341 -2.406 -1.095 -3.233 -1.784 h -3.046 H 45.09 h -3.046 c -0.827 0.689 -2.112 1.443 -3.233 1.784 c -1.356 -1.776 -3.694 -2.184 -6.176 -0.973 c -0.309 -0.927 -1.101 -1.722 -2.115 -2.277 c -3.02 2.736 -5.159 5.998 -6.529 9.721 c 1.581 1.119 3.339 1.911 5.303 2.17 c 1.217 4.828 3.187 6.751 6.164 9.312 c -0.056 4.037 0.05 9.935 0.422 14.034 C 38.825 89.68 41.875 90 45 90 c 3.194 0 6.309 -0.338 9.315 -0.971 c 0.368 -4.097 0.473 -9.966 0.417 -13.988 c 2.978 -2.561 4.948 -4.484 6.164 -9.312 c 1.964 -0.259 3.722 -1.051 5.303 -2.17 C 64.831 59.836 62.691 56.574 59.671 53.838 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(52,96,143); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 59.487 62.799 c -0.424 -0.111 -0.848 0.134 -0.967 0.556 c -1.217 4.328 -3.987 7.758 -8.577 10.137 c -1.332 0.69 -1.597 2.452 -0.596 3.569 c 3.034 3.384 3.077 8.477 0.705 12.65 c 1.442 -0.161 2.864 -0.387 4.261 -0.681 c 0.369 -4.096 0.475 -9.965 0.419 -13.989 c 2.978 -2.561 4.948 -4.484 6.164 -9.312 c 0.214 -0.028 0.425 -0.065 0.634 -0.106 c 0.225 -0.043 0.447 -0.096 0.667 -0.153 c 0.188 -0.049 0.374 -0.105 0.558 -0.164 c 0.112 -0.035 0.224 -0.07 0.335 -0.109 c 0.182 -0.065 0.363 -0.134 0.541 -0.207 c 0.046 -0.019 0.091 -0.039 0.137 -0.058 c 0.854 -0.366 1.664 -0.83 2.431 -1.372 c -0.271 -0.735 -0.58 -1.448 -0.912 -2.147 C 63.328 62.718 61.391 63.296 59.487 62.799 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 40.259 73.491 c -4.589 -2.378 -7.36 -5.808 -8.577 -10.137 c -0.119 -0.422 -0.543 -0.666 -0.967 -0.556 c -1.907 0.498 -3.847 -0.082 -5.81 -1.393 c -0.333 0.701 -0.643 1.415 -0.914 2.152 c 0.002 0.001 0.004 0.003 0.005 0.004 c 0.187 0.132 0.377 0.26 0.57 0.383 c 0.028 0.018 0.057 0.035 0.086 0.053 c 0.37 0.233 0.749 0.447 1.137 0.64 c 0.021 0.01 0.04 0.022 0.061 0.032 c 0.139 0.068 0.281 0.129 0.422 0.192 c 0.133 0.059 0.266 0.116 0.402 0.17 c 0.12 0.048 0.24 0.095 0.362 0.139 c 0.211 0.076 0.424 0.146 0.64 0.209 c 0.057 0.017 0.112 0.037 0.169 0.052 c 0.281 0.077 0.567 0.141 0.857 0.196 c 0.196 0.037 0.393 0.073 0.593 0.099 c 0.052 0.207 0.108 0.401 0.162 0.598 c 0.055 0.196 0.111 0.386 0.169 0.572 c 0.023 0.075 0.047 0.15 0.071 0.224 c 0.058 0.18 0.117 0.356 0.178 0.527 c 0.025 0.072 0.051 0.142 0.077 0.212 c 0.062 0.167 0.125 0.332 0.189 0.491 c 0.027 0.066 0.054 0.13 0.081 0.195 c 0.066 0.158 0.134 0.314 0.203 0.464 c 0.027 0.058 0.054 0.113 0.081 0.17 c 0.073 0.152 0.146 0.303 0.222 0.448 c 0.024 0.046 0.049 0.09 0.074 0.136 c 0.081 0.151 0.163 0.3 0.247 0.444 c 0.016 0.028 0.033 0.054 0.05 0.081 c 0.629 1.051 1.355 1.929 2.191 2.769 c 0.009 0.009 0.018 0.018 0.027 0.027 c 0.135 0.136 0.274 0.271 0.415 0.405 c 0.01 0.009 0.019 0.018 0.029 0.028 c 0.449 0.426 0.926 0.85 1.434 1.29 c 0.001 0.001 0.001 0.002 0.002 0.003 c 0.087 0.076 0.173 0.15 0.262 0.227 c -0.002 0.11 -0.002 0.225 -0.004 0.336 c 0 0.002 0.001 0.004 0.001 0.007 c -0.046 3.978 0.065 9.702 0.426 13.691 c 1.404 0.289 2.833 0.509 4.282 0.663 c -2.387 -4.178 -2.35 -9.286 0.691 -12.678 C 41.856 75.943 41.591 74.181 40.259 73.491 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 42.079 79.033 c 0.46 -0.311 0.921 -0.465 1.381 -0.584 c 0.46 -0.109 0.921 -0.16 1.381 -0.161 c 0.46 -0.001 0.921 0.05 1.381 0.159 c 0.46 0.118 0.921 0.274 1.381 0.586 c -0.46 0.312 -0.921 0.468 -1.381 0.586 c -0.46 0.109 -0.921 0.16 -1.381 0.159 c -0.46 -0.001 -0.921 -0.052 -1.381 -0.161 C 43 79.499 42.539 79.344 42.079 79.033 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 40.676 82.483 c 0.694 -0.311 1.388 -0.465 2.083 -0.584 c 0.694 -0.109 1.388 -0.16 2.083 -0.161 c 0.694 -0.001 1.388 0.05 2.083 0.159 c 0.694 0.118 1.388 0.274 2.083 0.586 c -0.694 0.312 -1.388 0.468 -2.083 0.586 c -0.694 0.109 -1.388 0.16 -2.083 0.159 c -0.694 -0.001 -1.388 -0.052 -2.083 -0.161 C 42.065 82.949 41.37 82.794 40.676 82.483 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 39.274 85.933 c 0.928 -0.311 1.856 -0.465 2.784 -0.584 c 0.928 -0.109 1.856 -0.16 2.784 -0.161 c 0.928 -0.001 1.856 0.05 2.784 0.159 c 0.928 0.118 1.856 0.274 2.784 0.586 c -0.928 0.312 -1.856 0.468 -2.784 0.586 c -0.928 0.109 -1.856 0.16 -2.784 0.159 c -0.928 -0.001 -1.856 -0.052 -2.784 -0.161 C 41.13 86.399 40.202 86.244 39.274 85.933 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 33.585 63.102 c 0.756 0.779 1.421 1.566 2.111 2.297 c 0.689 0.731 1.402 1.399 2.163 1.97 c 0.765 0.566 1.579 1.039 2.487 1.37 c 0.909 0.329 1.893 0.522 2.966 0.694 c -0.989 0.444 -2.12 0.594 -3.238 0.437 c -1.119 -0.155 -2.206 -0.625 -3.105 -1.306 c -0.907 -0.676 -1.633 -1.539 -2.198 -2.466 C 34.206 65.169 33.794 64.166 33.585 63.102 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 56.617 63.102 c -0.209 1.064 -0.621 2.067 -1.186 2.996 c -0.564 0.927 -1.291 1.791 -2.198 2.466 c -0.899 0.68 -1.986 1.15 -3.105 1.306 c -1.118 0.157 -2.249 0.007 -3.238 -0.437 c 1.072 -0.172 2.057 -0.365 2.966 -0.694 c 0.908 -0.331 1.723 -0.804 2.487 -1.37 c 0.762 -0.57 1.474 -1.239 2.163 -1.97 C 55.196 64.668 55.861 63.881 56.617 63.102 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 52.18 60.717 c -0.596 0.049 -1.066 0.103 -1.533 0.176 c -0.462 0.067 -0.905 0.143 -1.351 0.225 l -1.358 0.256 l -1.53 0.305 c 0.166 -0.584 0.581 -1.033 1.044 -1.372 c 0.471 -0.334 1.015 -0.556 1.581 -0.657 c 0.566 -0.102 1.159 -0.083 1.722 0.079 C 51.311 59.898 51.857 60.203 52.18 60.717 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 38.022 60.717 c 0.323 -0.514 0.869 -0.819 1.425 -0.988 c 0.563 -0.162 1.156 -0.181 1.722 -0.079 c 0.566 0.101 1.11 0.322 1.581 0.657 c 0.463 0.339 0.877 0.788 1.044 1.372 l -1.53 -0.305 l -1.358 -0.256 c -0.446 -0.081 -0.889 -0.157 -1.351 -0.225 C 39.089 60.82 38.619 60.766 38.022 60.717 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 45.101 59.256 c 1.663 0 2.885 -1.431 3.987 -3.271 c -0.457 -0.274 -0.597 -0.394 -0.941 -0.68 l -3.046 0 l -3.046 0 c -0.344 0.286 -0.484 0.406 -0.941 0.681 C 42.216 57.825 43.438 59.256 45.101 59.256 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(240,180,121); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 51.003 48.321 l -0.234 3.639 l 0 0 c -0.231 2.764 -2.051 5.14 -4.66 6.082 l 0 0 c -0.326 0.118 -0.667 0.177 -1.009 0.177 l 0 0 c -0.341 0 -0.683 -0.059 -1.009 -0.177 l 0 0 c -2.608 -0.943 -4.429 -3.318 -4.66 -6.082 l -0.22 -3.639 v -4.015 L 51.003 44.2 V 48.321 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,204,153); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 51.003 48.321 c 2.604 -3.875 1.422 -6.516 -2.77 -8.176 c 0.091 -0.383 0.619 -0.766 1.453 -1.149 c -3.448 -1.295 -7.548 -0.999 -9.424 2.03 c -2.57 0.866 -3.357 3.743 -1.049 7.294 c 0.258 -4.347 3.079 -3.994 6.487 -2.568 c 1.723 0.659 3.218 0.591 4.628 0.372 C 51.098 45.981 51.06 47.352 51.003 48.321 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(68,68,68); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 39.667 53.267 c -1.066 -0.31 -1.845 -1.294 -1.845 -2.459 V 49.62 c 0 -0.397 0.322 -0.719 0.719 -0.719 h 0.707 L 39.667 53.267 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,204,153); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 50.535 53.267 c 1.066 -0.31 1.845 -1.294 1.845 -2.46 V 49.62 c 0 -0.397 -0.322 -0.719 -0.719 -0.719 h -0.68 L 50.535 53.267 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,204,153); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 47.597 53.595 c -1.664 2.187 -3.328 2.202 -4.992 0 H 47.597 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 41.945 49.43 c 0.397 -0.87 1.779 -0.873 2.176 0 c -0.472 0.089 -0.774 0.081 -1.088 0.089 C 42.719 49.509 42.417 49.518 41.945 49.43 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(229,171,115); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 46.081 49.43 c 0.397 -0.87 1.779 -0.873 2.176 0 c -0.472 0.089 -0.774 0.081 -1.088 0.089 C 46.855 49.509 46.552 49.518 46.081 49.43 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(229,171,115); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 58.024 55.233 c 0.401 -0.549 0.973 -1.026 1.648 -1.395 c 3.02 2.736 5.159 5.998 6.529 9.721 c -0.565 0.4 -1.153 0.756 -1.765 1.062 C 62.858 61.157 60.745 58.013 58.024 55.233 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 32.168 55.233 c -0.401 -0.549 -0.973 -1.026 -1.648 -1.395 c -3.02 2.736 -5.159 5.998 -6.529 9.721 c 0.565 0.4 1.153 0.756 1.765 1.062 C 27.334 61.157 29.446 58.013 32.168 55.233 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(48,78,130); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 45.096 51.674 c 0.219 -0.067 0.47 0.013 0.735 0.156 c -0.372 0.201 -0.737 0.332 -1.111 0.429 c -0.154 0.04 -0.311 -0.052 -0.35 -0.206 c -0.012 -0.047 -0.012 -0.094 -0.001 -0.139 l 0.037 -0.153 c 0.024 -0.1 0.065 -0.246 0.095 -0.4 c 0.041 -0.152 0.067 -0.316 0.122 -0.478 c 0.099 -0.326 0.22 -0.664 0.471 -0.983 C 44.958 50.554 45.289 51.152 45.096 51.674 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(229,171,115); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 24.737 36.049 h -2.38 c -1.374 0 -2.488 -1.114 -2.488 -2.488 v 0 c 0 -1.374 1.114 -2.488 2.488 -2.488 h 1.371 c 1.374 0 2.488 1.114 2.488 2.488 v 1.009 C 26.216 35.387 25.554 36.049 24.737 36.049 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,204,154); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                    <path
+                                                        d="M 67.643 36.049 h -2.104 c -0.969 0 -1.754 -0.785 -1.754 -1.754 v -0.733 c 0 -1.374 1.114 -2.488 2.488 -2.488 h 1.371 c 1.374 0 2.488 1.114 2.488 2.488 v 0 C 70.131 34.936 69.017 36.049 67.643 36.049 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,204,154); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                </g>
+                                            </svg>
+                                        </h3>
+                                        <p class="mt-4 introProjectDiv text-center">The boostapp was an internal
+                                            application I took part in refactor and develop using .NET8 along with
+                                            hosting on Azure Portal the applications purpose was to help the company
+                                            empolees to complete challenges as report working hours in time, completing
+                                            team challenges as taking 10 000 steps each day, doing yoga together etc
+                                            etc.
+                                        </p>
+                                        <p class="mt-4 introProjectDiv text-center">
+                                            During the applications development we used Azure devops for CI-CD, it was
+                                            built with a microservice architecture. For the diffrent apis to comunicate
+                                            we used Azure servicebus witch was fun to learn. other features was wokring
+                                            with diffrent databases as cosmos db along with SQL in the many apis.
+                                        </p>
+                                    </div>
+
+                                    <div class="mt-4">
+                                        <h3 class="text-center titleH1"
+                                            style="color: black; display: flex; align-items: center; justify-content: center;">
+                                            EmailBuilder
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="40"
+                                                height="40" viewBox="0 0 256 256" xml:space="preserve"
+                                                style="margin-left: 10px;">
+                                                <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                                                    transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                                    <circle cx="45" cy="45" r="45"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(35,91,216); fill-rule: nonzero; opacity: 1;"
+                                                        transform="  matrix(1 0 0 1 0 0) " />
+                                                    <path
+                                                        d="M 64.567 26.495 H 25.433 c -3.142 0 -5.689 2.547 -5.689 5.689 v 25.631 c 0 3.142 2.547 5.689 5.689 5.689 h 39.135 c 3.142 0 5.689 -2.547 5.689 -5.689 V 32.184 C 70.256 29.043 67.709 26.495 64.567 26.495 z M 63.343 57.47 c -0.295 0.306 -0.688 0.46 -1.081 0.46 c -0.374 0 -0.749 -0.14 -1.04 -0.419 l -9.419 -9.065 l -1.357 1.489 c -1.394 1.528 -3.378 2.404 -5.446 2.404 c -2.068 0 -4.053 -0.876 -5.446 -2.404 l -1.337 -1.467 l -9.022 9.023 c -0.292 0.293 -0.677 0.439 -1.061 0.439 s -0.768 -0.146 -1.061 -0.439 c -0.586 -0.586 -0.586 -1.535 0 -2.121 l 9.12 -9.121 L 26.63 35.754 c -0.558 -0.612 -0.514 -1.561 0.098 -2.119 c 0.613 -0.558 1.562 -0.514 2.119 0.098 l 12.924 14.18 c 0.838 0.92 1.985 1.426 3.229 1.426 s 2.392 -0.506 3.229 -1.426 l 2.422 -2.657 l 10.502 -11.522 c 0.559 -0.612 1.507 -0.655 2.119 -0.098 c 0.612 0.558 0.656 1.506 0.098 2.119 l -9.546 10.474 l 9.477 9.121 C 63.898 55.924 63.917 56.873 63.343 57.47 z"
+                                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                </g>
+                                            </svg>
+                                        </h3>
+                                        <p class="mt-4 introProjectDiv text-center">This project is an internal email
+                                            sender. The company structure is built on three levels: Business Area,
+                                            Business Unit, and Competence Unit. The application is role-based, for
+                                            example ensuring that employees at the Competence Unit level cannot see
+                                            emails from higher levels. To fetch users and groups, I connected the
+                                            application's API to Microsoft's Graph API to access Azure Entra ID.
+                                        </p>
+                                        <p class="mt-4 introProjectDiv text-center">
+                                            I had the opportunity to build the backend from scratch using Azure DevOps
+                                            for CI/CD, employing design patterns such as clean architecture and generic
+                                            repository. To reduce costs, the team decided to use NoSQL with MongoDB,
+                                            which was both fun and necessary to learn. The project is hosted a Azure
+                                            portal.
+                                        </p>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section>
+                                <div class="container MyProjectDiv">
+                                    <h1 class=" text-center titleH1" style="color: black; font-size: 40px;">My hobby
+                                        projects</h1>
+                            </section>
+
+                            <section id="cardSection" class="d-flex justify-content-center mb-4 ">
+                                <a href="https://github.com/Nordstroem1/BookHandler" target="_blank"
+                                    class="ProjectDiv bookproject text-center"
+                                    style="text-decoration: none; color: inherit;">
+                                    <div class="container">
+                                        <h1 class="titleH1">Classic Book-API</h1>
+                                    </div>
+                                    <div class="DescriptionDiv container">
+                                        <p class="textdiv text-center">
+                                            A classic Book API made the right way for CRUD operations, featuring JWT
+                                            token-based user authorization.
+                                        </p>
+                                    </div>
+                                    <div class="TagDiv container d-flex justify-content-center flex-wrap">
+                                        <div class="Tag1 Tag mx-2">.NET8</div>
+                                        <div class="Tag2 Tag mx-2">MySQL</div>
+                                        <div class="Tag3 Tag mx-2">Entity framework</div>
+                                        <div class="Tag4 Tag mx-2">MediatR</div>
+                                        <div class="Tag5 Tag mx-2">JWT</div>
+                                        <div class="Tag9 Tag mx-2">Clean architecture</div>
+                                    </div>
+                                </a>
+                            </section>
+
+                            <section id="cardSection" class="d-flex justify-content-center mb-4">
+                                <a href="https://github.com/Nordstroem1/EventForFriends" target="_blank"
+                                    class="ProjectDiv EventManager text-center"
+                                    style="text-decoration: none; color: inherit;">
+                                    <div class="container">
+                                        <h1 class="titleH1">Event manager - in progress</h1>
+                                    </div>
+                                    <div class="DescriptionDiv container">
+                                        <p class="textdiv text-center">
+                                            An Event Manager built with .NET Core. It features Microsoft Identity and
+                                            JWT tokens for user roles and authorization. Currently, I'm integrating
+                                            SignalR for a real-time comments section.
+                                        </p>
+                                    </div>
+                                    <div class="TagDiv container d-flex justify-content-center flex-wrap"
+                                        style="padding: 5px;">
+                                        <div class="Tag1 Tag mx-2">.NET8</div>
+                                        <div class="Tag2 Tag mx-2">MySQL</div>
+                                        <div class="Tag3 Tag mx-2">Entity framework</div>
+                                        <div class="Tag4 Tag mx-2">MediatR</div>
+                                        <div class="Tag5 Tag mx-2">JWT</div>
+                                        <div class="Tag6 Tag mx-2">SignalR</div>
+                                        <div class="Tag7 Tag mx-2">Microsoft identity</div>
+                                        <div class="Tag8 Tag mx-2">AutoMapper</div>
+                                        <div class="Tag9 Tag mx-2">Clean architecture</div>
+                                    </div>
+                                </a>
+                            </section>
+                        </div>
+                    </div>
         </section>
-    
+
         <footer class="bg-white dark:bg-gray-900 p-6">
-            <div class="container flex flex-col items-center justify-center mx-auto space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4">
+            <div
+                class="container flex flex-col items-center justify-center mx-auto space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4">
                 <p class="text-sm text-gray-600 dark:text-gray-300">© Copyright 2025. All Rights Reserved.</p>
                 <div class="flex space-x-4">
-                    <a href="https://www.linkedin.com/in/johan-nordstr%C3%B6m-14471928a/" 
-                    target="blank"
-                    class="text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" 
-                    aria-label="LinkedIn">
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 48 48">
-                            <path fill="#0078d4" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5	V37z"></path><path d="M30,37V26.901c0-1.689-0.819-2.698-2.192-2.698c-0.815,0-1.414,0.459-1.779,1.364	c-0.017,0.064-0.041,0.325-0.031,1.114L26,37h-7V18h7v1.061C27.022,18.356,28.275,18,29.738,18c4.547,0,7.261,3.093,7.261,8.274	L37,37H30z M11,37V18h3.457C12.454,18,11,16.528,11,14.499C11,12.472,12.478,11,14.514,11c2.012,0,3.445,1.431,3.486,3.479	C18,16.523,16.521,18,14.485,18H18v19H11z" opacity=".05"></path><path d="M30.5,36.5v-9.599c0-1.973-1.031-3.198-2.692-3.198c-1.295,0-1.935,0.912-2.243,1.677	c-0.082,0.199-0.071,0.989-0.067,1.326L25.5,36.5h-6v-18h6v1.638c0.795-0.823,2.075-1.638,4.238-1.638	c4.233,0,6.761,2.906,6.761,7.774L36.5,36.5H30.5z M11.5,36.5v-18h6v18H11.5z M14.457,17.5c-1.713,0-2.957-1.262-2.957-3.001	c0-1.738,1.268-2.999,3.014-2.999c1.724,0,2.951,1.229,2.986,2.989c0,1.749-1.268,3.011-3.015,3.011H14.457z" opacity=".07"></path><path fill="#fff" d="M12,19h5v17h-5V19z M14.485,17h-0.028C12.965,17,12,15.888,12,14.499C12,13.08,12.995,12,14.514,12	c1.521,0,2.458,1.08,2.486,2.499C17,15.887,16.035,17,14.485,17z M36,36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698	c-1.501,0-2.313,1.012-2.707,1.99C24.957,25.543,25,26.511,25,27v9h-5V19h5v2.616C25.721,20.5,26.85,19,29.738,19	c3.578,0,6.261,2.25,6.261,7.274L36,36L36,36z"></path>
-                            </svg>
+                    <a href="https://www.linkedin.com/in/johan-nordstr%C3%B6m-14471928a/" target="blank"
+                        class="text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                        aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35"
+                            viewBox="0 0 48 48">
+                            <path fill="#0078d4"
+                                d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5	V37z">
+                            </path>
+                            <path
+                                d="M30,37V26.901c0-1.689-0.819-2.698-2.192-2.698c-0.815,0-1.414,0.459-1.779,1.364	c-0.017,0.064-0.041,0.325-0.031,1.114L26,37h-7V18h7v1.061C27.022,18.356,28.275,18,29.738,18c4.547,0,7.261,3.093,7.261,8.274	L37,37H30z M11,37V18h3.457C12.454,18,11,16.528,11,14.499C11,12.472,12.478,11,14.514,11c2.012,0,3.445,1.431,3.486,3.479	C18,16.523,16.521,18,14.485,18H18v19H11z"
+                                opacity=".05"></path>
+                            <path
+                                d="M30.5,36.5v-9.599c0-1.973-1.031-3.198-2.692-3.198c-1.295,0-1.935,0.912-2.243,1.677	c-0.082,0.199-0.071,0.989-0.067,1.326L25.5,36.5h-6v-18h6v1.638c0.795-0.823,2.075-1.638,4.238-1.638	c4.233,0,6.761,2.906,6.761,7.774L36.5,36.5H30.5z M11.5,36.5v-18h6v18H11.5z M14.457,17.5c-1.713,0-2.957-1.262-2.957-3.001	c0-1.738,1.268-2.999,3.014-2.999c1.724,0,2.951,1.229,2.986,2.989c0,1.749-1.268,3.011-3.015,3.011H14.457z"
+                                opacity=".07"></path>
+                            <path fill="#fff"
+                                d="M12,19h5v17h-5V19z M14.485,17h-0.028C12.965,17,12,15.888,12,14.499C12,13.08,12.995,12,14.514,12	c1.521,0,2.458,1.08,2.486,2.499C17,15.887,16.035,17,14.485,17z M36,36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698	c-1.501,0-2.313,1.012-2.707,1.99C24.957,25.543,25,26.511,25,27v9h-5V19h5v2.616C25.721,20.5,26.85,19,29.738,19	c3.578,0,6.261,2.25,6.261,7.274L36,36L36,36z">
+                            </path>
+                        </svg>
                     </a>
-    
-                    <a href="https://github.com/Nordstroem1" 
-                    class="text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" 
-                    aria-label="Github"
-                    target="blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 48 48">
-                            <path fill="#2100c4" d="M24,4C12.954,4,4,12.954,4,24c0,8.887,5.801,16.411,13.82,19.016h12.36 C38.199,40.411,44,32.887,44,24C44,12.954,35.046,4,24,4z"></path><path fill="#ddbaff" d="M37,23.5c0-2.897-0.875-4.966-2.355-6.424C35.591,15.394,34.339,12,34.339,12 c-2.5,0.5-4.367,1.5-5.609,2.376C27.262,14.115,25.671,14,24,14c-1.71,0-3.339,0.118-4.834,0.393 c-1.242-0.879-3.115-1.889-5.632-2.393c0,0-1.284,3.492-0.255,5.146C11.843,18.6,11,20.651,11,23.5 c0,6.122,3.879,8.578,9.209,9.274C19.466,33.647,19,34.764,19,36l0,0.305c-0.163,0.045-0.332,0.084-0.514,0.108 c-1.107,0.143-2.271,0-2.833-0.333c-0.562-0.333-1.229-1.083-1.729-1.813c-0.422-0.616-1.263-2.032-3.416-1.979 c-0.376-0.01-0.548,0.343-0.5,0.563c0.043,0.194,0.213,0.5,0.896,0.75c0.685,0.251,1.063,0.854,1.438,1.458 c0.418,0.674,0.417,2.468,2.562,3.416c1.53,0.677,2.988,0.594,4.097,0.327l0.001,3.199c0,0.639-0.585,1.125-1.191,1.013 C19.755,43.668,21.833,44,24,44c2.166,0,4.243-0.332,6.19-0.984C29.584,43.127,29,42.641,29,42.002L29,36 c0-1.236-0.466-2.353-1.209-3.226C33.121,32.078,37,29.622,37,23.5z"></path><path fill="#ddbaff" d="M15,18l3.838-1.279c1.01-0.337,1.231-1.684,0.365-2.302l-0.037-0.026 c-2.399,0.44-4.445,1.291-5.888,2.753C13.596,17.658,14.129,18,15,18z"></path><path fill="#ddbaff" d="M28.693,14.402c-0.878,0.623-0.655,1.987,0.366,2.327L32.872,18c0.913,0,1.461-0.37,1.773-0.924 c-1.46-1.438-3.513-2.274-5.915-2.701C28.717,14.384,28.705,14.393,28.693,14.402z"></path><path fill="#ddbaff" d="M24,31c-1.525,0-2.874,0.697-3.791,1.774C21.409,32.931,22.681,33,24,33s2.591-0.069,3.791-0.226 C26.874,31.697,25.525,31,24,31z"></path>
-                            </svg>
+
+                    <a href="https://github.com/Nordstroem1"
+                        class="text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                        aria-label="Github" target="blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35"
+                            viewBox="0 0 48 48">
+                            <path fill="#2100c4"
+                                d="M24,4C12.954,4,4,12.954,4,24c0,8.887,5.801,16.411,13.82,19.016h12.36 C38.199,40.411,44,32.887,44,24C44,12.954,35.046,4,24,4z">
+                            </path>
+                            <path fill="#ddbaff"
+                                d="M37,23.5c0-2.897-0.875-4.966-2.355-6.424C35.591,15.394,34.339,12,34.339,12 c-2.5,0.5-4.367,1.5-5.609,2.376C27.262,14.115,25.671,14,24,14c-1.71,0-3.339,0.118-4.834,0.393 c-1.242-0.879-3.115-1.889-5.632-2.393c0,0-1.284,3.492-0.255,5.146C11.843,18.6,11,20.651,11,23.5 c0,6.122,3.879,8.578,9.209,9.274C19.466,33.647,19,34.764,19,36l0,0.305c-0.163,0.045-0.332,0.084-0.514,0.108 c-1.107,0.143-2.271,0-2.833-0.333c-0.562-0.333-1.229-1.083-1.729-1.813c-0.422-0.616-1.263-2.032-3.416-1.979 c-0.376-0.01-0.548,0.343-0.5,0.563c0.043,0.194,0.213,0.5,0.896,0.75c0.685,0.251,1.063,0.854,1.438,1.458 c0.418,0.674,0.417,2.468,2.562,3.416c1.53,0.677,2.988,0.594,4.097,0.327l0.001,3.199c0,0.639-0.585,1.125-1.191,1.013 C19.755,43.668,21.833,44,24,44c2.166,0,4.243-0.332,6.19-0.984C29.584,43.127,29,42.641,29,42.002L29,36 c0-1.236-0.466-2.353-1.209-3.226C33.121,32.078,37,29.622,37,23.5z">
+                            </path>
+                            <path fill="#ddbaff"
+                                d="M15,18l3.838-1.279c1.01-0.337,1.231-1.684,0.365-2.302l-0.037-0.026 c-2.399,0.44-4.445,1.291-5.888,2.753C13.596,17.658,14.129,18,15,18z">
+                            </path>
+                            <path fill="#ddbaff"
+                                d="M28.693,14.402c-0.878,0.623-0.655,1.987,0.366,2.327L32.872,18c0.913,0,1.461-0.37,1.773-0.924 c-1.46-1.438-3.513-2.274-5.915-2.701C28.717,14.384,28.705,14.393,28.693,14.402z">
+                            </path>
+                            <path fill="#ddbaff"
+                                d="M24,31c-1.525,0-2.874,0.697-3.791,1.774C21.409,32.931,22.681,33,24,33s2.591-0.069,3.791-0.226 C26.874,31.697,25.525,31,24,31z">
+                            </path>
+                        </svg>
                     </a>
                 </div>
             </div>
         </footer>
     </div>
-    
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="ScriptLogic.js"></script>
 </body>
+
 </html>
