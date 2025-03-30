@@ -51,6 +51,9 @@ p{
     font-family: 'Inter Black', sans-serif;
     color: #000000;
 }
+.BiggerProjectsDiv{
+    margin: 0px auto 80px auto;
+}
 
 .ProjectDiv {
     min-width: 350px;
@@ -85,6 +88,9 @@ p{
 }
 .textdiv{
     color: white    ;
+}
+.LogoDiv{
+    display: flex;
 }
 .TagDiv{
     grid-row: 4;
@@ -146,13 +152,16 @@ svg:hover {
 }
 
 /*MEDIA QUERIES*/
-
-@media (max-width: 550px) {
+@media (max-width: 555px) {
+    .container {
+        align-content: center;
+        padding: 10px;
+    }
     .ProjectDiv {
-        min-width: 300px;
+        min-width: 290px;
         padding: 15px;
         height: auto; 
-        margin: 0px; 
+        margin: 10px; 
         grid-template-rows: 15% 10% 20% 40%;
         width: 80%;
     }
@@ -162,19 +171,21 @@ svg:hover {
         justify-content: center;
     }
     #FirstSection{
-        min-width: 300px;
+        align-self: center;
+        min-width: 290px;
+    }
+    #SecondSection{
+        min-width: 290px;
         padding: 10px;
-        width: 60%;
+        width: 90%;
         margin: 0px;
     }
     #portfolioSection{
-        min-width: 300px;
         padding: 10px;
         width: 100%;
-        margin: 0px, 0px;
+        margin: 10px;
     }
     .BiggerProjectsDiv{
-        min-width: 300px;
         height: auto; 
         margin: 0px; 
         padding: 15px;
@@ -296,5 +307,73 @@ svg:hover {
         display: flex;
         justify-content: center; 
         align-items: center; 
+    }
+}
+@media (max-width: 390px) {
+    .LogoDiv{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-evenly; 
+        gap: 10px; 
+    }
+    .firstRow,
+    .secondRow {
+        margin: 5px;
+        display: block;
+    }
+    .titleH1 {
+        flex-direction: column;
+        align-self: center;
+      }
+    .ProjectDiv {
+        min-width: 370px;
+        padding: 10px;
+        height: auto; 
+        margin: 0px; 
+        grid-template-rows: 15% 10% 20% 40%;
+        width: 90%;
+    }
+    #FirstSection{
+        align-self: center;
+        min-width: 290px;
+    }
+    #SecondSection{
+        min-width: 290px;
+        padding: 10px;
+        width: 100%;
+        margin: 0px;
+    }
+    #portfolioSection{
+        min-width: 290px;
+        padding: 10px;
+        width: 100%;
+        margin: 0px;
+    }
+    .BiggerProjectsDiv{
+        min-width: 300px;
+        height: auto; 
+        margin: 0px; 
+        padding: 15px;
+    }
+    .MyProjectDiv{
+        width: 100%;
+    }
+    #PortfolioContent{
+        width: 100%;
+    }
+    .bigDiv {
+        width: 100%;
+    }
+    .TagDiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        height: auto; 
+    }
+    .stackDiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        gap: 5px;    
     }
 }
