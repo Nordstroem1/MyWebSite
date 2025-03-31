@@ -327,30 +327,30 @@ svg:hover {
       }
     .ProjectDiv {
         min-width: 370px;
-        padding: 10px;
-        height: auto; 
+        padding: 5px;
+        height: 500px; 
         margin: 0px; 
-        grid-template-rows: 15% 10% 20% 40%;
+        grid-template-rows: 15% 30% 50%;
         width: 90%;
     }
     #FirstSection{
         align-self: center;
-        min-width: 290px;
+        min-width: 350px;
     }
     #SecondSection{
-        min-width: 290px;
+        min-width: 350px;
         padding: 10px;
         width: 100%;
         margin: 0px;
     }
     #portfolioSection{
-        min-width: 290px;
+        min-width: 350px;
         padding: 10px;
         width: 100%;
         margin: 0px;
     }
     .BiggerProjectsDiv{
-        min-width: 300px;
+        min-width: 350px;
         height: auto; 
         margin: 0px; 
         padding: 15px;
@@ -364,11 +364,15 @@ svg:hover {
     .bigDiv {
         width: 100%;
     }
+    .DescriptionDiv {
+        grid-row: 2;
+    }
     .TagDiv{
         display: flex;
         flex-wrap: wrap;
         justify-content: center; 
         height: auto; 
+        grid-row: 3;
     }
     .stackDiv{
         display: flex;
